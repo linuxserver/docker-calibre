@@ -1,0 +1,14 @@
+#!/bin/execlineb -P
+
+# Redirect stderr to stdout.
+fdmove -c 2 1
+
+# Wait until openbox is running
+if { s6-svwait -t 10000 -U /var/run/s6/services/openbox/ }
+
+# Drop privileges and set env
+s6-setuidgid abc
+s6-env DISPLAY=:1 HOME=/config
+
+# Execute Calibre
+/usr/bin/calibre
