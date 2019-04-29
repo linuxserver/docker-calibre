@@ -24,7 +24,7 @@ pipeline {
     MULTIARCH = 'false'
     CI = 'true'
     CI_WEB = 'true'
-    CI_PORT = '80'
+    CI_PORT = '8080'
     CI_SSL = 'false'
     CI_DELAY = '120'
     CI_DOCKERENV = 'TZ=US/Pacific'
