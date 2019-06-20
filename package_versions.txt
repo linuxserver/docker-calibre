@@ -230,7 +230,7 @@ libspeexdsp11.2~rc1.2-1ubuntu2
 libsqlite3-03.22.0-1
 libss21.44.1-1ubuntu1.1
 libssl1.0.01.0.2n-1ubuntu5.3
-libssl1.11.1.1-1ubuntu2.1~18.04.2
+libssl1.11.1.1-1ubuntu2.1~18.04.3
 libstartup-notification00.12-5
 libstdc++68.3.0-6ubuntu1~18.04
 libsystemd0237-3ubuntu10.21
