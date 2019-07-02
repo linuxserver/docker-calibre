@@ -91,7 +91,7 @@ libegl1-mesa18.2.8-0ubuntu0~18.04.2
 libegl-mesa018.2.8-0ubuntu0~18.04.2
 libelf10.170-0.4ubuntu0.1
 libepoxy01.4.3-1
-libexpat12.2.5-3
+libexpat12.2.5-3ubuntu0.1
 libext2fs21.44.1-1ubuntu1.1
 libfdisk12.31.1-0.4ubuntu3.3
 libffi63.2.1-8
@@ -227,13 +227,13 @@ libsm62:1.2.2-1
 libsmartcols12.31.1-0.4ubuntu3.3
 libsndfile11.0.28-4ubuntu0.18.04.1
 libspeexdsp11.2~rc1.2-1ubuntu2
-libsqlite3-03.22.0-1
+libsqlite3-03.22.0-1ubuntu0.1
 libss21.44.1-1ubuntu1.1
 libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.3
 libstartup-notification00.12-5
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.22
+libsystemd0237-3ubuntu10.23
 libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
@@ -329,7 +329,7 @@ netcat1.10-41.1
 netcat-traditional1.10-41.1
 openbox3.6.1-7ubuntu0.1
 openjdk-11-jre-headless11.0.3+7-1ubuntu2~18.04.1
-openssl1.1.1-1ubuntu2.1~18.04.2
+openssl1.1.1-1ubuntu2.1~18.04.3
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.3
 poppler-data0.4.8-2
@@ -373,8 +373,8 @@ xkb-data2.23.1-1ubuntu1
 xorg-sgml-doctools1:1.11-1
 xorgxrdp0.9.5-2
 xrdp0.9.5-2
-xserver-common2:1.19.6-1ubuntu4.2
-xserver-xorg-core2:1.19.6-1ubuntu4.2
+xserver-common2:1.19.6-1ubuntu4.3
+xserver-xorg-core2:1.19.6-1ubuntu4.3
 xtrans-dev1.3.5-1
 xutils1:7.7+19ubuntu7.1
 xz-utils5.2.2-1.3
