@@ -200,4 +200,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **12.07.19:** - Download binary from calibre website instead of github.
 * **29.04.19:** - Initial release.

@@ -24,8 +24,8 @@ RUN \
         CALIBRE_RELEASE=$(curl -sX GET "https://api.github.com/repos/kovidgoyal/calibre/releases/latest" \
         | jq -r .tag_name); \
  fi && \
- CALIBRE_URL=$(curl -s https://api.github.com/repos/kovidgoyal/calibre/releases \
-        | jq -r 'first(.[] | select(.tag_name == '\"${CALIBRE_RELEASE}\"')) | first(.assets[] | select(.label == "64bit Linux binary")) | .browser_download_url') && \
+ CALIBRE_VERSION="$(echo ${CALIBRE_RELEASE} | cut -c2-)" && \
+ CALIBRE_URL="https://download.calibre-ebook.com/${CALIBRE_VERSION}/calibre-${CALIBRE_VERSION}-x86_64.txz" && \
  curl -o \
         /tmp/calibre-tarball.txz -L \
         "$CALIBRE_URL" && \
