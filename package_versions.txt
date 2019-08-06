@@ -159,8 +159,8 @@ libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.1
 libkrb5support01.16-2ubuntu0.1
 liblcms2-22.9-1ubuntu0.1
-libldap-2.4-22.4.45+dfsg-1ubuntu1.2
-libldap-common2.4.45+dfsg-1ubuntu1.2
+libldap-2.4-22.4.45+dfsg-1ubuntu1.3
+libldap-common2.4.45+dfsg-1ubuntu1.3
 libllvm81:8-3~ubuntu18.04.1
 liblocale-gettext-perl1.07-3build2
 libltdl72.4.6-2
@@ -328,7 +328,7 @@ ncurses-bin6.1-1ubuntu1.18.04
 netcat1.10-41.1
 netcat-traditional1.10-41.1
 openbox3.6.1-7ubuntu0.1
-openjdk-11-jre-headless11.0.3+7-1ubuntu2~18.04.1
+openjdk-11-jre-headless11.0.4+11-1ubuntu2~18.04.3
 openssl1.1.1-1ubuntu2.1~18.04.4
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.3
