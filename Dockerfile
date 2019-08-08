@@ -16,7 +16,8 @@ RUN \
         dbus \
         jq \
         python \
-        wget && \
+        wget \
+        zenity && \
  echo "**** install calibre ****" && \
  mkdir -p \
         /opt/calibre && \
