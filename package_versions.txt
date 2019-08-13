@@ -5,7 +5,7 @@ apt-utils1.6.11
 aspell0.60.7~20110707-4
 aspell-en2017.08.24-0-0.1
 at-spi2-core2.28.0-1
-base-files10.1ubuntu2.5
+base-files10.1ubuntu2.6
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 bsdmainutils11.1.2ubuntu1
@@ -304,7 +304,7 @@ libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.4
 libstartup-notification00.12-5
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.24
+libsystemd0237-3ubuntu10.25
 libtag1v51.11.1+dfsg.1-0.2build2
 libtag1v5-vanilla1.11.1+dfsg.1-0.2build2
 libtasn1-64.13-2
@@ -317,7 +317,7 @@ libtiff54.0.9-5ubuntu0.2
 libtinfo56.1-1ubuntu1.18.04
 libtomcat8-java8.5.39-1ubuntu1~18.04.2
 libtwolame00.3.13-3
-libudev1237-3ubuntu10.24
+libudev1237-3ubuntu10.25
 libunistring20.9.9-0ubuntu2
 libusb-1.0-02:1.0.21-2
 libuuid12.31.1-0.4ubuntu3.3
@@ -444,7 +444,7 @@ tzdata2019b-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
-udev237-3ubuntu10.24
+udev237-3ubuntu10.25
 util-linux2.31.1-0.4ubuntu3.3
 wget1.19.4-1ubuntu2.2
 x11-apps7.7+6ubuntu1
