@@ -107,8 +107,8 @@ libcdparanoia03.10.2+debian-13
 libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.1
 libcroco30.6.12-2
-libcups22.2.7-1ubuntu2.6
-libcupsimage22.2.7-1ubuntu2.6
+libcups22.2.7-1ubuntu2.7
+libcupsimage22.2.7-1ubuntu2.7
 libcurl47.58.0-2ubuntu3.7
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
@@ -155,7 +155,7 @@ libgcrypt201.8.1-4ubuntu1.1
 libgdbm51.14.1-6
 libgdk-pixbuf2.0-02.36.11-2
 libgdk-pixbuf2.0-common2.36.11-2
-libgif75.1.4-2
+libgif75.1.4-2ubuntu0.1
 libgl11.0.0-2ubuntu2.3
 libgl1-mesa-dri19.0.8-0ubuntu0~18.04.1
 libglapi-mesa19.0.8-0ubuntu0~18.04.1
