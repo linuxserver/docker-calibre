@@ -26,7 +26,7 @@ debianutils4.8.4
 default-jre-headless2:1.11-68ubuntu1~18.04.1
 dictionaries-common1.27.2
 diffutils1:3.6-1
-dpkg1.19.0.5ubuntu2.1
+dpkg1.19.0.5ubuntu2.2
 e2fsprogs1.44.1-1ubuntu1.1
 emacsen-common2.0.8
 enchant1.6.0-11.1
@@ -43,7 +43,7 @@ fuse2.9.7-1ubuntu1
 gawk1:4.1.4+dfsg-1build1
 gcc-7-base7.4.0-1ubuntu1~18.04.1
 gcc-8-base8.3.0-6ubuntu1~18.04.1
-ghostscript9.26~dfsg+0-0ubuntu0.18.04.10
+ghostscript9.26~dfsg+0-0ubuntu0.18.04.11
 glib-networking2.56.0-1
 glib-networking-common2.56.0-1
 glib-networking-services2.56.0-1
@@ -169,8 +169,8 @@ libgpg-error01.27-6
 libgpm21.20.7-5
 libgraphene-1.0-01.8.0-1
 libgraphite2-31.3.11-2
-libgs99.26~dfsg+0-0ubuntu0.18.04.10
-libgs9-common9.26~dfsg+0-0ubuntu0.18.04.10
+libgs99.26~dfsg+0-0ubuntu0.18.04.11
+libgs9-common9.26~dfsg+0-0ubuntu0.18.04.11
 libgssapi3-heimdal7.5.0+dfsg-1
 libgssapi-krb5-21.16-2ubuntu0.1
 libgstreamer1.0-01.14.5-0ubuntu1~18.04.1
@@ -215,8 +215,8 @@ libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.1
 libkrb5support01.16-2ubuntu0.1
 liblcms2-22.9-1ubuntu0.1
-libldap-2.4-22.4.45+dfsg-1ubuntu1.3
-libldap-common2.4.45+dfsg-1ubuntu1.3
+libldap-2.4-22.4.45+dfsg-1ubuntu1.4
+libldap-common2.4.45+dfsg-1ubuntu1.4
 libllvm81:8-3~ubuntu18.04.1
 liblocale-gettext-perl1.07-3build2
 libltdl72.4.6-2
@@ -260,7 +260,7 @@ libpcsclite11.8.23-1
 libpipeline11.5.0-1
 libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
-libprocps62:3.3.12-3ubuntu1.1
+libprocps62:3.3.12-3ubuntu1.2
 libproxy1v50.4.15-1
 libpsl50.19.1-5build1
 libpthread-stubs0-dev0.3-4
@@ -402,7 +402,7 @@ libxtst62:1.2.3-1
 libxv12:1.0.11-1
 libxxf86dga12:1.1.4-1
 libxxf86vm11:1.1.4-1
-libzstd11.3.3+dfsg-2ubuntu1
+libzstd11.3.3+dfsg-2ubuntu1.1
 locales2.27-3ubuntu1
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
@@ -422,7 +422,7 @@ openssl1.1.1-1ubuntu2.1~18.04.4
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.3
 poppler-data0.4.8-2
-procps2:3.3.12-3ubuntu1.1
+procps2:3.3.12-3ubuntu1.2
 publicsuffix20180223.1310-1
 pulseaudio1:11.1-1ubuntu7.2
 pulseaudio-utils1:11.1-1ubuntu7.2
