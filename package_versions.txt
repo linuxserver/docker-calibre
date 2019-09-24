@@ -1,7 +1,7 @@
 adduser3.116ubuntu1
 adwaita-icon-theme3.28.0-1ubuntu1
-apt1.6.11
-apt-utils1.6.11
+apt1.6.12
+apt-utils1.6.12
 aspell0.60.7~20110707-4
 aspell-en2017.08.24-0-0.1
 at-spi2-core2.28.0-1
@@ -72,8 +72,8 @@ krb5-locales1.16-2ubuntu0.1
 libaa11.4p5-44build2
 libacl12.2.52-3build1
 libapparmor12.12-4ubuntu5.1
-libapt-inst2.01.6.11
-libapt-pkg5.01.6.11
+libapt-inst2.01.6.12
+libapt-pkg5.01.6.12
 libasn1-8-heimdal7.5.0+dfsg-1
 libasound21.1.3-5ubuntu0.2
 libasound2-data1.1.3-5ubuntu0.2
@@ -304,7 +304,7 @@ libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.4
 libstartup-notification00.12-5
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.28
+libsystemd0237-3ubuntu10.29
 libtag1v51.11.1+dfsg.1-0.2build2
 libtag1v5-vanilla1.11.1+dfsg.1-0.2build2
 libtasn1-64.13-2
