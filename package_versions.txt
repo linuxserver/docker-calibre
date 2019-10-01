@@ -125,8 +125,8 @@ libdv41.0.0-11
 libecj-java3.16.0-1~18.04
 libedit23.1-20170329-1
 libegl11.0.0-2ubuntu2.3
-libegl1-mesa19.0.8-0ubuntu0~18.04.1
-libegl-mesa019.0.8-0ubuntu0~18.04.1
+libegl1-mesa19.0.8-0ubuntu0~18.04.2
+libegl-mesa019.0.8-0ubuntu0~18.04.2
 libelf10.170-0.4ubuntu0.1
 libenchant1c2a1.6.0-11.1
 libepoxy01.4.3-1
@@ -149,7 +149,7 @@ libfreerdp-primitives1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreerdp-utils1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreetype62.8.1-2ubuntu2
 libfuse22.9.7-1ubuntu1
-libgbm119.0.8-0ubuntu0~18.04.1
+libgbm119.0.8-0ubuntu0~18.04.2
 libgcc11:8.3.0-6ubuntu1~18.04.1
 libgcrypt201.8.1-4ubuntu1.1
 libgdbm51.14.1-6
@@ -157,12 +157,12 @@ libgdk-pixbuf2.0-02.36.11-2
 libgdk-pixbuf2.0-common2.36.11-2
 libgif75.1.4-2ubuntu0.1
 libgl11.0.0-2ubuntu2.3
-libgl1-mesa-dri19.0.8-0ubuntu0~18.04.1
-libglapi-mesa19.0.8-0ubuntu0~18.04.1
+libgl1-mesa-dri19.0.8-0ubuntu0~18.04.2
+libglapi-mesa19.0.8-0ubuntu0~18.04.2
 libglib2.0-02.56.4-0ubuntu0.18.04.4
 libglvnd01.0.0-2ubuntu2.3
 libglx01.0.0-2ubuntu2.3
-libglx-mesa019.0.8-0ubuntu0~18.04.1
+libglx-mesa019.0.8-0ubuntu0~18.04.2
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.1
 libgpg-error01.27-6
