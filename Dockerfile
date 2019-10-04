@@ -15,10 +15,10 @@ RUN \
  apt-get install -y \
         dbus \
         jq \
+        libxkbcommon-x11-0 \
         python \
         wget \
-        zenity \
-        libxkbcommon-x11-0 && \
+        zenity && \
  echo "**** install calibre ****" && \
  mkdir -p \
         /opt/calibre && \
