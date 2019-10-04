@@ -17,7 +17,8 @@ RUN \
         jq \
         python \
         wget \
-        zenity && \
+        zenity \
+        libxkbcommon-x11-0 && \
  echo "**** install calibre ****" && \
  mkdir -p \
         /opt/calibre && \
