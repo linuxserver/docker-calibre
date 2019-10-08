@@ -26,8 +26,8 @@ debianutils4.8.4
 default-jre-headless2:1.11-68ubuntu1~18.04.1
 dictionaries-common1.27.2
 diffutils1:3.6-1
-dpkg1.19.0.5ubuntu2.2
-e2fsprogs1.44.1-1ubuntu1.1
+dpkg1.19.0.5ubuntu2.3
+e2fsprogs1.44.1-1ubuntu1.2
 emacsen-common2.0.8
 enchant1.6.0-11.1
 fdisk2.31.1-0.4ubuntu3.4
@@ -48,7 +48,7 @@ glib-networking2.56.0-1
 glib-networking-common2.56.0-1
 glib-networking-services2.56.0-1
 gpgv2.2.4-1ubuntu1.2
-grep3.1-2
+grep3.1-2build1
 groff-base1.22.3-10
 gsettings-desktop-schemas3.28.0-1ubuntu1
 gstreamer1.0-gl1.14.5-0ubuntu1~18.04.1
@@ -105,7 +105,7 @@ libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1
 libcdparanoia03.10.2+debian-13
 libcolord21.3.3-2build1
-libcom-err21.44.1-1ubuntu1.1
+libcom-err21.44.1-1ubuntu1.2
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.7
 libcupsimage22.2.7-1ubuntu2.7
@@ -131,7 +131,7 @@ libelf10.170-0.4ubuntu0.1
 libenchant1c2a1.6.0-11.1
 libepoxy01.4.3-1
 libexpat12.2.5-3ubuntu0.2
-libext2fs21.44.1-1ubuntu1.1
+libext2fs21.44.1-1ubuntu1.2
 libfdisk12.31.1-0.4ubuntu3.4
 libffi63.2.1-8
 libflac81.3.2-1
@@ -299,7 +299,7 @@ libsoup-gnome2.4-12.62.1-1ubuntu0.3
 libspeex11.2~rc1.2-1ubuntu2
 libspeexdsp11.2~rc1.2-1ubuntu2
 libsqlite3-03.22.0-1ubuntu0.1
-libss21.44.1-1ubuntu1.1
+libss21.44.1-1ubuntu1.2
 libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.4
 libstartup-notification00.12-5
