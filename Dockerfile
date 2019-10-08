@@ -14,9 +14,12 @@ RUN \
  apt-get update && \
  apt-get install -y \
         dbus \
+        fcitx-rime \
+        fonts-wqy-microhei \
         jq \
         libxkbcommon-x11-0 \
         python \
+        ttf-wqy-zenhei \
         wget \
         zenity && \
  echo "**** install calibre ****" && \
