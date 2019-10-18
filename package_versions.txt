@@ -521,6 +521,7 @@ python2.7.15~rc1-1
 python2.72.7.15-4ubuntu4~18.04.2
 python2.7-minimal2.7.15-4ubuntu4~18.04.2
 python-minimal2.7.15~rc1-1
+python-xdg0.25-4ubuntu1
 qdbus4:4.8.7+dfsg-7ubuntu1
 qt5-gtk-platformtheme5.9.5+dfsg-0ubuntu2.3
 qt-at-spi0.4.0-8
