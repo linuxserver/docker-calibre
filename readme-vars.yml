@@ -64,6 +64,7 @@ app_setup_block: |
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
 # changelog
 changelogs:
+  - { date: "18.10.19:", desc: "Add python-xdg." }
   - { date: "08.10.19:", desc: "Add fonts-wqy-microhei ttf-wqy-zenhei fcitx-rime dependency to resolve issue with Chinese encoding." }
   - { date: "04.10.19:", desc: "Add libxkbcommon-x11-0 dependency to resolve issue with Calibre 4." }
   - { date: "08.08.19:", desc: "Add zenity for international character support in dialog boxes." }

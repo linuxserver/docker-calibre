@@ -19,6 +19,7 @@ RUN \
         jq \
         libxkbcommon-x11-0 \
         python \
+        python-xdg \
         ttf-wqy-zenhei \
         wget \
         zenity && \
