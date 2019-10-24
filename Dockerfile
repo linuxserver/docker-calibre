@@ -12,7 +12,7 @@ ENV APPNAME="calibre"
 RUN \
  echo "**** install runtime packages ****" && \
  apt-get update && \
- apt-get install -y \
+ apt-get install -y --no-install-recommends \
         dbus \
         fcitx-rime \
         fonts-wqy-microhei \
@@ -22,7 +22,7 @@ RUN \
         python-xdg \
         ttf-wqy-zenhei \
         wget \
-        zenity && \
+	xz-utils && \
  echo "**** install calibre ****" && \
  mkdir -p \
         /opt/calibre && \
