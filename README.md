@@ -210,6 +210,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.10.19:** - Remove reccomended deps and zenity for character compatibility.
 * **18.10.19:** - Add python-xdg.
 * **08.10.19:** - Add fonts-wqy-microhei ttf-wqy-zenhei fcitx-rime dependency to resolve issue with Chinese encoding.
 * **04.10.19:** - Add libxkbcommon-x11-0 dependency to resolve issue with Calibre 4.
