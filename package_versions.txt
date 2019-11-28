@@ -190,7 +190,7 @@ libncursesw56.1-1ubuntu1.18.04
 libnettle63.4-1
 libnghttp2-141.30.0-1ubuntu1
 libnspr42:4.18-1ubuntu1
-libnss32:3.35-2ubuntu2.3
+libnss32:3.35-2ubuntu2.5
 libobrender32v53.6.1-7ubuntu0.1
 libobt2v53.6.1-7ubuntu0.1
 libogg01.3.2-1
@@ -265,7 +265,7 @@ libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
 libtinyxml2.6.2v52.6.2-4
 libtomcat8-java8.5.39-1ubuntu1~18.04.3
-libudev1237-3ubuntu10.31
+libudev1237-3ubuntu10.33
 libunistring20.9.9-0ubuntu2
 libunwind81.2.1-8
 libusb-1.0-02:1.0.21-2
@@ -383,7 +383,7 @@ tomcat8-user8.5.39-1ubuntu1~18.04.3
 tzdata2019c-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
-udev237-3ubuntu10.31
+udev237-3ubuntu10.33
 util-linux2.31.1-0.4ubuntu3.4
 wget1.19.4-1ubuntu2.2
 x11-apps7.7+6ubuntu1
