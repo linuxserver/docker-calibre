@@ -176,7 +176,7 @@ liblcms2-22.9-1ubuntu0.1
 libldap-2.4-22.4.45+dfsg-1ubuntu1.4
 libldap-common2.4.45+dfsg-1ubuntu1.4
 libleveldb1v51.20-2
-libllvm81:8-3~ubuntu18.04.1
+libllvm81:8-3~ubuntu18.04.2
 liblocale-gettext-perl1.07-3build2
 libltdl72.4.6-2
 liblz4-10.0~r131-2ubuntu3
@@ -190,7 +190,7 @@ libncursesw56.1-1ubuntu1.18.04
 libnettle63.4-1
 libnghttp2-141.30.0-1ubuntu1
 libnspr42:4.18-1ubuntu1
-libnss32:3.35-2ubuntu2.6
+libnss32:3.35-2ubuntu2.7
 libobrender32v53.6.1-7ubuntu0.1
 libobt2v53.6.1-7ubuntu0.1
 libogg01.3.2-1
