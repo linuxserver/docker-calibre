@@ -256,7 +256,7 @@ libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
 libstartup-notification00.12-5
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.38
+libsystemd0237-3ubuntu10.39
 libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
@@ -265,7 +265,7 @@ libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
 libtinyxml2.6.2v52.6.2-4
 libtomcat8-java8.5.39-1ubuntu1~18.04.3
-libudev1237-3ubuntu10.38
+libudev1237-3ubuntu10.39
 libunistring20.9.9-0ubuntu2
 libunwind81.2.1-8
 libusb-1.0-02:1.0.21-2
@@ -383,7 +383,7 @@ tomcat8-user8.5.39-1ubuntu1~18.04.3
 tzdata2019c-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
-udev237-3ubuntu10.38
+udev237-3ubuntu10.39
 util-linux2.31.1-0.4ubuntu3.5
 wget1.19.4-1ubuntu2.2
 x11-apps7.7+6ubuntu1
@@ -402,8 +402,8 @@ xkb-data2.23.1-1ubuntu1.18.04.1
 xorg-sgml-doctools1:1.11-1
 xorgxrdp0.9.5-2
 xrdp0.9.5-2
-xserver-common2:1.19.6-1ubuntu4.3
-xserver-xorg-core2:1.19.6-1ubuntu4.3
+xserver-common2:1.19.6-1ubuntu4.4
+xserver-xorg-core2:1.19.6-1ubuntu4.4
 xtrans-dev1.3.5-1
 xutils1:7.7+19ubuntu7.1
 xz-utils5.2.2-1.3
