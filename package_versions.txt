@@ -11,7 +11,7 @@ ca-certificates20180409
 ca-certificates-java20180516ubuntu1~18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
-cpp-77.4.0-1ubuntu1~18.04.1
+cpp-77.5.0-3ubuntu1~18.04
 curl7.58.0-2ubuntu3.8
 dash0.5.8-2.10
 dbus1.12.2-1ubuntu1.1
@@ -37,7 +37,7 @@ fonts-wqy-microhei0.2.0-beta-3
 fonts-wqy-zenhei0.9.45-7ubuntu1
 fuse2.9.7-1ubuntu1
 gawk1:4.1.4+dfsg-1build1
-gcc-7-base7.4.0-1ubuntu1~18.04.1
+gcc-7-base7.5.0-3ubuntu1~18.04
 gcc-8-base8.3.0-6ubuntu1~18.04.1
 ghostscript9.26~dfsg+0-0ubuntu0.18.04.12
 gpgv2.2.4-1ubuntu1.2
@@ -250,7 +250,7 @@ libsmartcols12.31.1-0.4ubuntu3.5
 libsnappy1v51.1.7-1
 libsndfile11.0.28-4ubuntu0.18.04.1
 libspeexdsp11.2~rc1.2-1ubuntu2
-libsqlite3-03.22.0-1ubuntu0.2
+libsqlite3-03.22.0-1ubuntu0.3
 libss21.44.1-1ubuntu1.3
 libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
