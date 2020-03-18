@@ -7,7 +7,7 @@ ARG CALIBRE_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="aptalca"
 
-ENV APPNAME="calibre"
+ENV APPNAME="Calibre" UMASK_SET="022"
 
 RUN \
  echo "**** install runtime packages ****" && \
