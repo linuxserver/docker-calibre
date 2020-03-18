@@ -38,6 +38,7 @@ opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "GUAC_USER", env_value: "abc", desc: "Username for the calibre desktop gui." }
   - { env_var: "GUAC_PASS", env_value: "900150983cd24fb0d6963f7d28e17f72", desc: "Password's md5 hash for the calibre desktop gui." }
+  - { env_var: "UMASK_SET", env_value: "022", desc: "for umask setting of Calibre, default if left unset is 022."}
 opt_param_usage_include_vols: false
 opt_param_usage_include_ports: false
 opt_param_device_map: false
@@ -64,6 +65,7 @@ app_setup_block: |
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
 # changelog
 changelogs:
+  - { date: "18.03.19:", desc: "Let Calibre access environment variables, add optional umask setting." }
   - { date: "23.10.19:", desc: "Remove reccomended deps and zenity for character compatibility." }
   - { date: "18.10.19:", desc: "Add python-xdg." }
   - { date: "08.10.19:", desc: "Add fonts-wqy-microhei ttf-wqy-zenhei fcitx-rime dependency to resolve issue with Chinese encoding." }

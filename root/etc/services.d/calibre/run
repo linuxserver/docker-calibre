@@ -1,10 +1,17 @@
 #!/bin/execlineb -P
 
+# Load env variables
+with-contenv
+
 # Redirect stderr to stdout.
 fdmove -c 2 1
 
 # Wait until openbox is running
 if { s6-svwait -t 10000 -U /var/run/s6/services/openbox/ }
+
+#set umask
+importas UMASK_SET UMASK_SET
+umask ${UMASK_SET}
 
 # Drop privileges and set env
 s6-setuidgid abc
