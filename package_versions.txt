@@ -153,7 +153,7 @@ libheimntlm0-heimdal7.5.0+dfsg-1
 libhogweed43.4-1
 libhx509-5-heimdal7.5.0+dfsg-1
 libice62:1.0.9-2
-libicu6060.2-3ubuntu3
+libicu6060.2-3ubuntu3.1
 libid3tag00.15.1b-13
 libidn111.33-2.1ubuntu1.2
 libidn2-02.0.4-1.1ubuntu0.2
