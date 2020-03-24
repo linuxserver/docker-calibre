@@ -38,7 +38,7 @@ fonts-wqy-zenhei0.9.45-7ubuntu1
 fuse2.9.7-1ubuntu1
 gawk1:4.1.4+dfsg-1build1
 gcc-7-base7.5.0-3ubuntu1~18.04
-gcc-8-base8.3.0-6ubuntu1~18.04.1
+gcc-8-base8.3.0-26ubuntu1~18.04
 ghostscript9.26~dfsg+0-0ubuntu0.18.04.12
 gpgv2.2.4-1ubuntu1.2
 grep3.1-2build1
@@ -122,7 +122,7 @@ libfreerdp-utils1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreetype62.8.1-2ubuntu2
 libfuse22.9.7-1ubuntu1
 libgbm119.2.8-0ubuntu0~18.04.3
-libgcc11:8.3.0-6ubuntu1~18.04.1
+libgcc11:8.3.0-26ubuntu1~18.04
 libgcrypt201.8.1-4ubuntu1.2
 libgdbm51.14.1-6
 libgdk-pixbuf2.0-02.36.11-2
@@ -255,7 +255,7 @@ libss21.44.1-1ubuntu1.3
 libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
 libstartup-notification00.12-5
-libstdc++68.3.0-6ubuntu1~18.04.1
+libstdc++68.3.0-26ubuntu1~18.04
 libsystemd0237-3ubuntu10.39
 libtasn1-64.13-2
 libtdb11.3.15-2
