@@ -56,8 +56,8 @@ libapparmor12.12-4ubuntu5.1
 libapt-inst2.01.6.12
 libapt-pkg5.01.6.12
 libasn1-8-heimdal7.5.0+dfsg-1
-libasound21.1.3-5ubuntu0.4
-libasound2-data1.1.3-5ubuntu0.4
+libasound21.1.3-5ubuntu0.5
+libasound2-data1.1.3-5ubuntu0.5
 libasound2-plugins1.1.1-1ubuntu1
 libasyncns00.8-6
 libattr11:2.4.47-2build1
