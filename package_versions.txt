@@ -85,8 +85,8 @@ libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1
 libcom-err21.44.1-1ubuntu1.3
 libcroco30.6.12-2
-libcups22.2.7-1ubuntu2.7
-libcupsimage22.2.7-1ubuntu2.7
+libcups22.2.7-1ubuntu2.8
+libcupsimage22.2.7-1ubuntu2.8
 libcurl47.58.0-2ubuntu3.8
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
@@ -177,7 +177,7 @@ libjson-glib-1.0-01.4.2-3ubuntu0.18.04.1
 libjson-glib-1.0-common1.4.2-3ubuntu0.18.04.1
 libk5crypto31.16-2ubuntu0.1
 libkeyutils11.5.9-9.2ubuntu2
-libkmod224-1ubuntu3.2
+libkmod224-1ubuntu3.3
 libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.1
 libkrb5support01.16-2ubuntu0.1
