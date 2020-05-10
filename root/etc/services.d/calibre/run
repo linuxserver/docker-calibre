@@ -18,4 +18,4 @@ s6-setuidgid abc
 s6-env DISPLAY=:1 HOME=/config
 
 # Execute Calibre
-/usr/bin/calibre
+/usr/bin/calibre $CLI_ARGS
