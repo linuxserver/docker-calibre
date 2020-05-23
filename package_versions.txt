@@ -1,6 +1,6 @@
 adduser3.116ubuntu1
-apt1.6.12
-apt-utils1.6.12
+apt1.6.12ubuntu0.1
+apt-utils1.6.12ubuntu0.1
 base-files10.1ubuntu2.8
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
@@ -59,8 +59,8 @@ keyboard-configuration1.178ubuntu2.9
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapparmor12.12-4ubuntu5.1
-libapt-inst2.01.6.12
-libapt-pkg5.01.6.12
+libapt-inst2.01.6.12ubuntu0.1
+libapt-pkg5.01.6.12ubuntu0.1
 libasn1-8-heimdal7.5.0+dfsg-1
 libasound21.1.3-5ubuntu0.5
 libasound2-data1.1.3-5ubuntu0.5
@@ -177,7 +177,7 @@ libjson-glib-1.0-01.4.2-3ubuntu0.18.04.1
 libjson-glib-1.0-common1.4.2-3ubuntu0.18.04.1
 libk5crypto31.16-2ubuntu0.1
 libkeyutils11.5.9-9.2ubuntu2
-libkmod224-1ubuntu3.3
+libkmod224-1ubuntu3.4
 libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.1
 libkrb5support01.16-2ubuntu0.1
@@ -392,7 +392,7 @@ tar1.29b-2ubuntu0.1
 tomcat88.5.39-1ubuntu1~18.04.3
 tomcat8-common8.5.39-1ubuntu1~18.04.3
 tomcat8-user8.5.39-1ubuntu1~18.04.3
-tzdata2019c-0ubuntu0.18.04
+tzdata2020a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
 udev237-3ubuntu10.40
