@@ -265,10 +265,10 @@ libspeexdsp11.2~rc1.2-1ubuntu2
 libsqlite3-03.22.0-1ubuntu0.3
 libss21.44.1-1ubuntu1.3
 libssl1.0.01.0.2n-1ubuntu5.3
-libssl1.11.1.1-1ubuntu2.1~18.04.5
+libssl1.11.1.1-1ubuntu2.1~18.04.6
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.40
+libsystemd0237-3ubuntu10.41
 libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
@@ -277,7 +277,7 @@ libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
 libtinyxml2.6.2v52.6.2-4
 libtomcat8-java8.5.39-1ubuntu1~18.04.3
-libudev1237-3ubuntu10.40
+libudev1237-3ubuntu10.41
 libunistring20.9.9-0ubuntu2
 libunwind81.2.1-8
 libusb-1.0-02:1.0.21-2
@@ -369,7 +369,7 @@ ncurses-bin6.1-1ubuntu1.18.04
 netcat-traditional1.10-41.1
 openbox3.6.1-7ubuntu0.1
 openjdk-11-jre-headless11.0.7+10-2ubuntu2~18.04
-openssl1.1.1-1ubuntu2.1~18.04.5
+openssl1.1.1-1ubuntu2.1~18.04.6
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.3
 poppler-data0.4.8-2
@@ -395,7 +395,7 @@ tomcat8-user8.5.39-1ubuntu1~18.04.3
 tzdata2020a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
-udev237-3ubuntu10.40
+udev237-3ubuntu10.41
 util-linux2.31.1-0.4ubuntu3.6
 wget1.19.4-1ubuntu2.2
 x11-apps7.7+6ubuntu1
