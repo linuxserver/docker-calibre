@@ -14,7 +14,7 @@ cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
 curl7.58.0-2ubuntu3.8
 dash0.5.8-2.10
-dbus1.12.2-1ubuntu1.1
+dbus1.12.2-1ubuntu1.2
 dconf-gsettings-backend0.26.0-2ubuntu3
 dconf-service0.26.0-2ubuntu3
 debconf1.5.66ubuntu1
@@ -90,7 +90,7 @@ libcupsimage22.2.7-1ubuntu2.8
 libcurl47.58.0-2ubuntu3.8
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
-libdbus-1-31.12.2-1ubuntu1.1
+libdbus-1-31.12.2-1ubuntu1.2
 libdconf10.26.0-2ubuntu3
 libdebconfclient00.213ubuntu1
 libdrm22.4.99-1ubuntu1~18.04.2
