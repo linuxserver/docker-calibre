@@ -82,7 +82,7 @@ libc62.27-3ubuntu1.2
 libcairo21.15.10-2ubuntu0.1
 libcap21:2.25-1.2
 libcap-ng00.7.7-3.1
-libc-bin2.27-3ubuntu1
+libc-bin2.27-3ubuntu1.2
 libcom-err21.44.1-1ubuntu1.3
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.8
@@ -102,8 +102,8 @@ libdrm-radeon12.4.101-2~18.04.1
 libecj-java3.16.0-1~18.04
 libedit23.1-20170329-1
 libegl11.0.0-2ubuntu2.3
-libegl1-mesa19.2.8-0ubuntu0~18.04.3
-libegl-mesa019.2.8-0ubuntu0~18.04.3
+libegl1-mesa20.0.8-0ubuntu1~18.04.1
+libegl-mesa020.0.8-0ubuntu1~18.04.1
 libelf10.170-0.4ubuntu0.1
 libepoxy01.4.3-1
 libexpat12.2.5-3ubuntu0.2
@@ -128,7 +128,7 @@ libfreerdp-primitives1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreerdp-utils1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreetype62.8.1-2ubuntu2
 libfuse22.9.7-1ubuntu1
-libgbm119.2.8-0ubuntu0~18.04.3
+libgbm120.0.8-0ubuntu1~18.04.1
 libgcc11:8.4.0-1ubuntu1~18.04
 libgcrypt201.8.1-4ubuntu1.2
 libgdbm51.14.1-6
@@ -138,14 +138,14 @@ libgettextpo00.19.8.1-6ubuntu0.3
 libgflags2.22.2.1-1
 libgif75.1.4-2ubuntu0.1
 libgl11.0.0-2ubuntu2.3
-libgl1-mesa-dri19.2.8-0ubuntu0~18.04.3
-libglapi-mesa19.2.8-0ubuntu0~18.04.3
+libgl1-mesa-dri20.0.8-0ubuntu1~18.04.1
+libglapi-mesa20.0.8-0ubuntu1~18.04.1
 libglib2.0-02.56.4-0ubuntu0.18.04.6
 libglvnd01.0.0-2ubuntu2.3
 libglx01.0.0-2ubuntu2.3
-libglx-mesa019.2.8-0ubuntu0~18.04.3
+libglx-mesa020.0.8-0ubuntu1~18.04.1
 libgmp102:6.1.2+dfsg-2
-libgnutls303.5.18-1ubuntu1.3
+libgnutls303.5.18-1ubuntu1.4
 libgoogle-glog0v50.3.5-1
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
@@ -185,7 +185,7 @@ liblcms2-22.9-1ubuntu0.1
 libldap-2.4-22.4.45+dfsg-1ubuntu1.5
 libldap-common2.4.45+dfsg-1ubuntu1.5
 libleveldb1v51.20-2
-libllvm91:9-2~ubuntu18.04.2
+libllvm101:10.0.0-4ubuntu1~18.04.1
 liblocale-gettext-perl1.07-3build2
 libltdl72.4.6-2
 liblz4-10.0~r131-2ubuntu3
