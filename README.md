@@ -241,6 +241,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.09.20:** - Switch to python3, add various new dependencies for calibre 5.0.
 * **10.05.19:** - Add new env var `CLI_ARGS` to pass start arguments to calibre.
 * **18.03.19:** - Let Calibre access environment variables, add optional umask setting.
 * **23.10.19:** - Remove reccomended deps and zenity for character compatibility.
