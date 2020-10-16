@@ -234,8 +234,8 @@ libpsl50.19.1-5build1
 libpthread-stubs0-dev0.3-4
 libpulse01:11.1-1ubuntu7.10
 libpulsedsp1:11.1-1ubuntu7.10
-libpython3.6-minimal3.6.9-1~18.04ubuntu1.1
-libpython3.6-stdlib3.6.9-1~18.04ubuntu1.1
+libpython3.6-minimal3.6.9-1~18.04ubuntu1.3
+libpython3.6-stdlib3.6.9-1~18.04ubuntu1.3
 libpython3-stdlib3.6.7-1~18.04
 libqpdf218.0.2-3
 libreadline77.0-3
@@ -386,8 +386,8 @@ publicsuffix20180223.1310-1
 pulseaudio1:11.1-1ubuntu7.10
 pulseaudio-utils1:11.1-1ubuntu7.10
 python33.6.7-1~18.04
-python3.63.6.9-1~18.04ubuntu1.1
-python3.6-minimal3.6.9-1~18.04ubuntu1.1
+python3.63.6.9-1~18.04ubuntu1.3
+python3.6-minimal3.6.9-1~18.04ubuntu1.3
 python3-minimal3.6.7-1~18.04
 python3-xdg0.25-4ubuntu1
 readline-common7.0-3
