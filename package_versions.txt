@@ -422,8 +422,8 @@ xkb-data2.23.1-1ubuntu1.18.04.1
 xorg-sgml-doctools1:1.11-1
 xorgxrdp0.9.5-2
 xrdp0.9.5-2
-xserver-common2:1.19.6-1ubuntu4.6
-xserver-xorg-core2:1.19.6-1ubuntu4.6
+xserver-common2:1.19.6-1ubuntu4.7
+xserver-xorg-core2:1.19.6-1ubuntu4.7
 xtrans-dev1.3.5-1
 xutils1:7.7+19ubuntu7.1
 xz-utils5.2.2-1.3
