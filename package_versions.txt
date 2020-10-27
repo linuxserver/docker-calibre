@@ -126,7 +126,7 @@ libfreerdp-locale1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreerdp-plugins-standard1.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreerdp-primitives1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
 libfreerdp-utils1.11.1.0~git20140921.1.440916e+dfsg1-15ubuntu1.18.04.1
-libfreetype62.8.1-2ubuntu2
+libfreetype62.8.1-2ubuntu2.1
 libfuse22.9.7-1ubuntu1
 libgbm120.0.8-0ubuntu1~18.04.1
 libgcc11:8.4.0-1ubuntu1~18.04
