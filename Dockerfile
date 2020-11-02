@@ -1,4 +1,4 @@
-FROM lsiobase/guacgui
+FROM ghcr.io/linuxserver/baseimage-guacgui
 
 # set version label
 ARG BUILD_DATE
