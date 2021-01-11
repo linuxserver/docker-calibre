@@ -55,3 +55,7 @@ RUN \
 
 # add local files
 COPY root/ /
+
+# ports
+EXPOSE 8080
+EXPOSE 8081
