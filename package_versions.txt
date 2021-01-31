@@ -279,7 +279,7 @@ libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
 libtinyxml2.6.2v52.6.2-4
 libtomcat8-java8.5.39-1ubuntu1~18.04.3
-libudev1237-3ubuntu10.43
+libudev1237-3ubuntu10.44
 libunistring20.9.9-0ubuntu2
 libunwind81.2.1-8
 libusb-1.0-02:1.0.21-2
@@ -396,14 +396,14 @@ sensible-utils0.0.12
 shared-mime-info1.9-2
 ssl-cert1.0.39
 sysvinit-utils2.88dsf-59.10ubuntu1
-tar1.29b-2ubuntu0.1
+tar1.29b-2ubuntu0.2
 tomcat88.5.39-1ubuntu1~18.04.3
 tomcat8-common8.5.39-1ubuntu1~18.04.3
 tomcat8-user8.5.39-1ubuntu1~18.04.3
-tzdata2020d-0ubuntu0.18.04
+tzdata2020f-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
-udev237-3ubuntu10.43
+udev237-3ubuntu10.44
 util-linux2.31.1-0.4ubuntu3.7
 wget1.19.4-1ubuntu2.2
 x11-apps7.7+6ubuntu1
