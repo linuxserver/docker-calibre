@@ -5,7 +5,34 @@ mkdir -p /config/.config/calibre
 
 # set webserver port on first install
 [[ ! -f /config/.config/calibre/server-config.txt ]] && \
-  echo "port 8081" > /config/.config/calibre/server-config.txt
+	echo "port 8081" > /config/.config/calibre/server-config.txt
+
+sed -i 's|"password":"abc",|"password":"kjhbouygiuvhgvghv",|' /gclient/app.js
+if ([ -n "$GUAC_USER" ] || [ -n "$GUAC_PASS" ]) && [ -z "$PASSWORD" ]; then
+	echo '
+********************************************************
+********************************************************
+****                                                ****
+****  GUAC_USER and GUAC_PASS vars are deprecated   ****
+****                                                ****
+****  Temporary credentials are being set:          ****
+****                                                ****
+****  User: abc                                     ****
+****  Pass: abc                                     ****
+****                                                ****
+****                                                ****
+****  See the readme for new credential info        ****
+****                                                ****
+****                                                ****
+********************************************************
+********************************************************'
+elif [ -n "$PASSWORD" ]; then
+	echo "abc:${PASSWORD}" | chpasswd
+	echo "Setting password from environment variable."
+else 
+	echo "abc:kjhbouygiuvhgvghv" | chpasswd
+	echo "No password is set for the interface."
+fi
 
 # permissions
 chown -R abc:abc \
