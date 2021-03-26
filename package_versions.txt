@@ -140,7 +140,7 @@ libgif75.1.4-2ubuntu0.1
 libgl11.0.0-2ubuntu2.3
 libgl1-mesa-dri20.0.8-0ubuntu1~18.04.1
 libglapi-mesa20.0.8-0ubuntu1~18.04.1
-libglib2.0-02.56.4-0ubuntu0.18.04.7
+libglib2.0-02.56.4-0ubuntu0.18.04.8
 libglvnd01.0.0-2ubuntu2.3
 libglx01.0.0-2ubuntu2.3
 libglx-mesa020.0.8-0ubuntu1~18.04.1
@@ -363,7 +363,7 @@ libxv12:1.0.11-1
 libxxf86dga12:1.1.4-1
 libxxf86vm11:1.1.4-1
 libyaml-cpp0.5v50.5.2-4ubuntu1
-libzstd11.3.3+dfsg-2ubuntu1.1
+libzstd11.3.3+dfsg-2ubuntu1.2
 locales2.27-3ubuntu1.4
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
