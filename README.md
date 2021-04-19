@@ -235,6 +235,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.04.21:** - Add libnss3 back in. Make sure Calibre can access environment variables.
 * **18.04.21:** - Start calibre on container start rather than gui connect.
 * **15.04.21:** - Rebase to rdesktop-web baseimage. Deprecate `GUAC_USER` and `GUAC_PASS` env vars. Existing users can set the new var `PASSWORD` for the user `abc`.
 * **25.09.20:** - Switch to python3, add various new dependencies for calibre 5.0.
