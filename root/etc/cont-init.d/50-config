@@ -5,11 +5,12 @@ mkdir -p /config/.config/calibre
 
 # set webserver port on first install
 [[ ! -f /config/.config/calibre/server-config.txt ]] && \
-	echo "port 8081" > /config/.config/calibre/server-config.txt
+    echo "port 8081" > /config/.config/calibre/server-config.txt
 
 sed -i 's|"password":"abc",|"password":"kjhbouygiuvhgvghv",|' /gclient/app.js
+sed -i "s#process.env.PASSWORD || 'abc';#process.env.PASSWORD || 'kjhbouygiuvhgvghv';#" /gclient/maketoken.js
 if ([ -n "$GUAC_USER" ] || [ -n "$GUAC_PASS" ]) && [ -z "$PASSWORD" ]; then
-	echo '
+    echo '
 ********************************************************
 ********************************************************
 ****                                                ****
@@ -27,14 +28,14 @@ if ([ -n "$GUAC_USER" ] || [ -n "$GUAC_PASS" ]) && [ -z "$PASSWORD" ]; then
 ********************************************************
 ********************************************************'
 elif [ -n "$PASSWORD" ]; then
-	echo "abc:${PASSWORD}" | chpasswd
-	echo "Setting password from environment variable."
+    echo "abc:${PASSWORD}" | chpasswd
+    echo "Setting password from environment variable."
 else 
-	echo "abc:kjhbouygiuvhgvghv" | chpasswd
-	echo "No password is set for the interface."
+    echo "abc:kjhbouygiuvhgvghv" | chpasswd
+    echo "No password is set for the interface."
 fi
 
 # permissions
 chown -R abc:abc \
-	/config \
-	/opt/calibre
+    /config \
+    /opt/calibre
