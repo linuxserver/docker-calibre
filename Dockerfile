@@ -19,6 +19,7 @@ RUN \
     fcitx-rime \
     fonts-wqy-microhei \
     jq \
+    libnss3 \
     libqpdf21 \
     libxkbcommon-x11-0 \
     libxcb-icccm4 \
