@@ -9,7 +9,8 @@ LABEL maintainer="aptalca"
 
 ENV \
   CUSTOM_PORT="8080" \
-  GUIAUTOSTART="true"
+  GUIAUTOSTART="true" \
+  HOME="/config"
 
 RUN \
   echo "**** install runtime packages ****" && \
