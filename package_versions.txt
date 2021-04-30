@@ -23,7 +23,7 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
-distro-info-data0.37ubuntu0.9
+distro-info-data0.37ubuntu0.10
 docker-ce-cli5:20.10.6~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
@@ -263,7 +263,7 @@ libsamplerate00.1.9-1
 libsasl2-22.1.27~101-g0780600+dfsg-3ubuntu2.3
 libsasl2-modules2.1.27~101-g0780600+dfsg-3ubuntu2.3
 libsasl2-modules-db2.1.27~101-g0780600+dfsg-3ubuntu2.3
-libseccomp22.4.3-1ubuntu3.18.04.3
+libseccomp22.5.1-1ubuntu1~18.04.1
 libselinux12.7-2build2
 libsemanage12.7-2build2
 libsemanage-common2.7-2build2
@@ -280,6 +280,7 @@ libsoup-gnome2.4-12.62.1-1ubuntu0.4
 libspeexdsp11.2~rc1.2-1ubuntu2
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
+libssl1.0.01.0.2n-1ubuntu5.6
 libssl1.11.1.1-1ubuntu2.1~18.04.9
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
@@ -373,9 +374,10 @@ mount2.31.1-0.4ubuntu3.7
 multiarch-support2.27-3ubuntu1.4
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-nodejs12.22.1-1nodesource1
+nodejs14.16.1-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
+openssh-client1:7.6p1-4ubuntu0.3
 openssl1.1.1-1ubuntu2.1~18.04.9
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.5
