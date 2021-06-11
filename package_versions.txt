@@ -24,7 +24,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
 distro-info-data0.37ubuntu0.10
-docker-ce-cli5:20.10.6~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.7~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fcitx-bin1:4.2.9.6-1
@@ -304,7 +304,7 @@ libwayland-client01.16.0-1ubuntu1.1~18.04.3
 libwayland-cursor01.16.0-1ubuntu1.1~18.04.3
 libwayland-egl11.16.0-1ubuntu1.1~18.04.3
 libwayland-server01.16.0-1ubuntu1.1~18.04.3
-libwebp60.6.1-2
+libwebp60.6.1-2ubuntu0.18.04.1
 libwebrtc-audio-processing10.3-1
 libwind0-heimdal7.5.0+dfsg-1
 libwinpr2-22.2.0+dfsg1-0ubuntu0.18.04.1
@@ -392,13 +392,13 @@ python2.7-minimal2.7.17-1~18.04ubuntu1.6
 python33.6.7-1~18.04
 python3.63.6.9-1~18.04ubuntu1.4
 python3.6-minimal3.6.9-1~18.04ubuntu1.4
-python3-apt1.6.5ubuntu0.5
+python3-apt1.6.5ubuntu0.6
 python3-dbus1.2.6-1
 python3-gi3.26.1-2ubuntu1
 python3-minimal3.6.7-1~18.04
 python3-software-properties0.96.24.32.14
 python3-xdg0.25-4ubuntu1.1
-python-apt-common1.6.5ubuntu0.5
+python-apt-common1.6.5ubuntu0.6
 python-minimal2.7.15~rc1-1
 readline-common7.0-3
 sed4.4-2
