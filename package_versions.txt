@@ -221,10 +221,10 @@ libopus01.1.2-1ubuntu1
 liborc-0.4-01:0.4.28-1
 libossp-uuid161.6.2-1.5build4
 libp11-kit00.23.9-2ubuntu0.1
-libpam0g1.1.8-3.6ubuntu2.18.04.2
-libpam-modules1.1.8-3.6ubuntu2.18.04.2
-libpam-modules-bin1.1.8-3.6ubuntu2.18.04.2
-libpam-runtime1.1.8-3.6ubuntu2.18.04.2
+libpam0g1.1.8-3.6ubuntu2.18.04.3
+libpam-modules1.1.8-3.6ubuntu2.18.04.3
+libpam-modules-bin1.1.8-3.6ubuntu2.18.04.3
+libpam-runtime1.1.8-3.6ubuntu2.18.04.3
 libpango-1.0-01.40.14-1ubuntu0.1
 libpangocairo-1.0-01.40.14-1ubuntu0.1
 libpangoft2-1.0-01.40.14-1ubuntu0.1
