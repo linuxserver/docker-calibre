@@ -61,7 +61,7 @@ groff-base1.22.3-10
 gsettings-desktop-schemas3.28.0-1ubuntu1
 gtk-update-icon-cache3.22.30-1ubuntu4
 guacd1.1.0-1
-gzip1.6-5ubuntu1
+gzip1.6-5ubuntu1.1
 hicolor-icon-theme0.17-2
 hostname3.20
 humanity-icon-theme0.6.15
@@ -75,8 +75,8 @@ libapparmor12.12-4ubuntu5.1
 libapt-inst2.01.6.14
 libapt-pkg5.01.6.14
 libasn1-8-heimdal7.5.0+dfsg-1
-libasound21.1.3-5ubuntu0.5
-libasound2-data1.1.3-5ubuntu0.5
+libasound21.1.3-5ubuntu0.6
+libasound2-data1.1.3-5ubuntu0.6
 libasound2-plugins1.1.1-1ubuntu1
 libassuan02.5.1-2
 libasyncns00.8-6
@@ -248,7 +248,7 @@ libpython3.6-minimal3.6.9-1~18.04ubuntu1.4
 libpython3.6-stdlib3.6.9-1~18.04ubuntu1.4
 libpython3-stdlib3.6.7-1~18.04
 libpython-stdlib2.7.15~rc1-1
-libqpdf218.0.2-3
+libqpdf218.0.2-3ubuntu0.1
 libreadline77.0-3
 librest-0.7-00.8.0-2
 librime11.2.9+dfsg2-1
@@ -284,7 +284,7 @@ libssl1.0.01.0.2n-1ubuntu5.6
 libssl1.11.1.1-1ubuntu2.1~18.04.9
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.48
+libsystemd0237-3ubuntu10.50
 libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
@@ -292,7 +292,7 @@ libthai-data0.1.27-2
 libtiff54.0.9-5ubuntu0.4
 libtinfo56.1-1ubuntu1.18.04
 libtinyxml2.6.2v52.6.2-4
-libudev1237-3ubuntu10.48
+libudev1237-3ubuntu10.50
 libunistring20.9.9-0ubuntu2
 libunwind81.2.1-8
 libusb-1.0-02:1.0.21-2
@@ -413,7 +413,7 @@ tzdata2021a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
-udev237-3ubuntu10.48
+udev237-3ubuntu10.50
 util-linux2.31.1-0.4ubuntu3.7
 wget1.19.4-1ubuntu2.2
 x11-apps7.7+6ubuntu1
