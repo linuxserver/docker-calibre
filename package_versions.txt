@@ -13,7 +13,7 @@ ca-certificates20210119~18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
-curl7.58.0-2ubuntu3.13
+curl7.58.0-2ubuntu3.14
 dash0.5.8-2.10
 dbus1.12.2-1ubuntu1.2
 dbus-x111.12.2-1ubuntu1.2
@@ -106,7 +106,7 @@ libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.3
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.8
-libcurl47.58.0-2ubuntu3.13
+libcurl47.58.0-2ubuntu3.14
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
 libdbus-1-31.12.2-1ubuntu1.2
@@ -274,7 +274,7 @@ libsm62:1.2.2-1
 libsmartcols12.31.1-0.4ubuntu3.7
 libsnapd-glib11.49-0ubuntu0.18.04.2
 libsnappy1v51.1.7-1
-libsndfile11.0.28-4ubuntu0.18.04.1
+libsndfile11.0.28-4ubuntu0.18.04.2
 libsoup2.4-12.62.1-1ubuntu0.4
 libsoup-gnome2.4-12.62.1-1ubuntu0.4
 libspeexdsp11.2~rc1.2-1ubuntu2
@@ -374,7 +374,7 @@ mount2.31.1-0.4ubuntu3.7
 multiarch-support2.27-3ubuntu1.4
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-nodejs14.17.2-1nodesource1
+nodejs14.17.4-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
 openssh-client1:7.6p1-4ubuntu0.3
