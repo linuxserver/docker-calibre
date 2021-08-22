@@ -272,7 +272,7 @@ libsepol12.7-1
 libsigsegv22.12-1
 libsm62:1.2.2-1
 libsmartcols12.31.1-0.4ubuntu3.7
-libsnapd-glib11.49-0ubuntu0.18.04.2
+libsnapd-glib11.58-0ubuntu0.18.04.0
 libsnappy1v51.1.7-1
 libsndfile11.0.28-4ubuntu0.18.04.2
 libsoup2.4-12.62.1-1ubuntu0.4
@@ -281,7 +281,7 @@ libspeexdsp11.2~rc1.2-1ubuntu2
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.0.01.0.2n-1ubuntu5.6
-libssl1.11.1.1-1ubuntu2.1~18.04.9
+libssl1.11.1.1-1ubuntu2.1~18.04.10
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
 libsystemd0237-3ubuntu10.50
@@ -374,7 +374,7 @@ mount2.31.1-0.4ubuntu3.7
 multiarch-support2.27-3ubuntu1.4
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-nodejs14.17.4-1nodesource1
+nodejs14.17.5-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
 openssh-client1:7.6p1-4ubuntu0.3
