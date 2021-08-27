@@ -23,7 +23,7 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
-distro-info-data0.37ubuntu0.10
+distro-info-data0.37ubuntu0.11
 docker-ce-cli5:20.10.8~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
@@ -284,7 +284,7 @@ libssl1.0.01.0.2n-1ubuntu5.6
 libssl1.11.1.1-1ubuntu2.1~18.04.10
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.50
+libsystemd0237-3ubuntu10.51
 libtasn1-64.13-2
 libtdb11.3.15-2
 libthai00.1.27-2
@@ -292,7 +292,7 @@ libthai-data0.1.27-2
 libtiff54.0.9-5ubuntu0.4
 libtinfo56.1-1ubuntu1.18.04
 libtinyxml2.6.2v52.6.2-4
-libudev1237-3ubuntu10.50
+libudev1237-3ubuntu10.51
 libunistring20.9.9-0ubuntu2
 libunwind81.2.1-8
 libusb-1.0-02:1.0.21-2
@@ -377,8 +377,8 @@ ncurses-bin6.1-1ubuntu1.18.04
 nodejs14.17.5-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
-openssh-client1:7.6p1-4ubuntu0.3
-openssl1.1.1-1ubuntu2.1~18.04.9
+openssh-client1:7.6p1-4ubuntu0.5
+openssl1.1.1-1ubuntu2.1~18.04.10
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
@@ -413,7 +413,7 @@ tzdata2021a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
-udev237-3ubuntu10.50
+udev237-3ubuntu10.51
 util-linux2.31.1-0.4ubuntu3.7
 wget1.19.4-1ubuntu2.2
 x11-apps7.7+6ubuntu1
