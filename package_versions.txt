@@ -23,7 +23,7 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
-distro-info-data0.37ubuntu0.12
+distro-info-data0.37ubuntu0.13
 docker-ce-cli5:20.10.9~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
