@@ -46,7 +46,7 @@ Find us at:
 
 ## Supported Architectures
 
-We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list) and our announcement [here](https://blog.linuxserver.io/2019/02/21/the-lsio-pipeline-project/).
+Our images support multiple architectures such as `x86-64`, `arm64` and `armhf`. We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list) and our announcement [here](https://blog.linuxserver.io/2019/02/21/the-lsio-pipeline-project/).
 
 Simply pulling `lscr.io/linuxserver/calibre` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
 
@@ -55,6 +55,17 @@ The architectures supported by this image are:
 | Architecture | Tag |
 | :----: | --- |
 | x86-64 | latest |
+| arm64 | arm64v8-arch |
+| armhf | arm32v7-arch |
+
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Default Ubuntu based image |
+| arch | Arch based image supporting arm platforms |
 
 ## Application Setup
 
@@ -234,6 +245,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **05.01.22:** - Add arch branch for arm platforms.
 * **20.04.21:** - Fix the HOME folder.
 * **19.04.21:** - Add libnss3 back in. Make sure Calibre can access environment variables.
 * **18.04.21:** - Start calibre on container start rather than gui connect.
