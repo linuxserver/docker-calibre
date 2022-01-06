@@ -11,9 +11,14 @@ project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-arch"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v7-arch"}
 
 # development version
-development_versions: false
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Default Ubuntu based image" }
+  - { tag: "arch", desc: "Arch based image supporting arm platforms" }
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -56,6 +61,7 @@ app_setup_block: |
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
 # changelog
 changelogs:
+  - { date: "05.01.22:", desc: "Add arch branch for arm platforms." }
   - { date: "20.04.21:", desc: "Fix the HOME folder." }
   - { date: "19.04.21:", desc: "Add libnss3 back in. Make sure Calibre can access environment variables." }
   - { date: "18.04.21:", desc: "Start calibre on container start rather than gui connect." }

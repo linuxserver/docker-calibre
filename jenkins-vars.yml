@@ -2,14 +2,11 @@
 
 # jenkins variables
 project_name: docker-calibre
-external_type: github_stable
-release_type: stable
-release_tag: latest
-ls_branch: master
+external_type: os
+release_type: prerelease
+release_tag: arch
+ls_branch: arch
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'kovidgoyal'
-  - EXT_REPO = 'calibre'
   - BUILD_VERSION_ARG = 'CALIBRE_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-calibre'
@@ -17,8 +14,8 @@ repo_vars:
   - DOCKERHUB_IMAGE = 'linuxserver/calibre'
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/calibre'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/calibre'
-  - DIST_IMAGE = 'ubuntu'
-  - MULTIARCH = 'false'
+  - DIST_IMAGE = 'arch'
+  - MULTIARCH = 'true'
   - CI = 'true'
   - CI_WEB = 'true'
   - CI_PORT = '8080'
