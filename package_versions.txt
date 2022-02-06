@@ -364,7 +364,7 @@ libxxf86vm11:1.1.4-1
 libyaml-cpp0.5v50.5.2-4ubuntu1
 libzstd11.3.3+dfsg-2ubuntu1.2
 locales2.27-3ubuntu1.4
-login1:4.5-1ubuntu2
+login1:4.5-1ubuntu2.2
 lsb-base9.20170808ubuntu1
 lsb-release9.20170808ubuntu1
 man-db2.8.3-2ubuntu0.1
@@ -379,7 +379,7 @@ obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
 openssh-client1:7.6p1-4ubuntu0.5
 openssl1.1.1-1ubuntu2.1~18.04.14
-passwd1:4.5-1ubuntu2
+passwd1:4.5-1ubuntu2.2
 perl-base5.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
 procps2:3.3.12-3ubuntu1.2
