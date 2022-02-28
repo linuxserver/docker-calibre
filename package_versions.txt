@@ -27,6 +27,7 @@ distro-info-data0.37ubuntu0.13
 docker-ce-cli5:20.10.12~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
+espeak-ng-data1.49.2+dfsg-1
 fcitx-bin1:4.2.9.6-1
 fcitx-data1:4.2.9.6-1
 fcitx-modules1:4.2.9.6-1
@@ -71,6 +72,8 @@ jq1.5+dfsg-2
 keyboard-configuration1.178ubuntu2.9
 krb5-locales1.16-2ubuntu0.2
 libacl12.2.52-3build1
+libao41.2.2+20180113-1ubuntu1
+libao-common1.2.2+20180113-1ubuntu1
 libapparmor12.12-4ubuntu5.1
 libapt-inst2.01.6.14
 libapt-pkg5.01.6.14
@@ -85,6 +88,7 @@ libatk1.0-data2.28.1-1
 libatk-bridge2.0-02.26.2-1
 libatspi2.0-02.28.0-1
 libattr11:2.4.47-2build1
+libaudio21.9.4-6
 libaudit11:2.8.2-1ubuntu1.1
 libaudit-common1:2.8.2-1ubuntu1.1
 libavahi-client30.7-3.1ubuntu1.3
@@ -112,6 +116,7 @@ libdb5.35.3.28-13.1ubuntu1.1
 libdbus-1-31.12.2-1ubuntu1.2
 libdconf10.26.0-2ubuntu3
 libdebconfclient00.213ubuntu1
+libdotconf01.3-0.3fakesync1
 libdrm22.4.101-2~18.04.1
 libdrm-amdgpu12.4.101-2~18.04.1
 libdrm-common2.4.101-2~18.04.1
@@ -124,7 +129,8 @@ libegl1-mesa20.0.8-0ubuntu1~18.04.1
 libegl-mesa020.0.8-0ubuntu1~18.04.1
 libelf10.170-0.4ubuntu0.1
 libepoxy01.4.3-1
-libexpat12.2.5-3ubuntu0.2
+libespeak-ng11.49.2+dfsg-1
+libexpat12.2.5-3ubuntu0.4
 libext2fs21.44.1-1ubuntu1.3
 libfcitx-config41:4.2.9.6-1
 libfcitx-core01:4.2.9.6-1
@@ -229,11 +235,13 @@ libpango-1.0-01.40.14-1ubuntu0.1
 libpangocairo-1.0-01.40.14-1ubuntu0.1
 libpangoft2-1.0-01.40.14-1ubuntu0.1
 libpangoxft-1.0-01.40.14-1ubuntu0.1
+libpcaudio01.0-1
 libpciaccess00.14-1
 libpcre32:8.39-9
 libpipeline11.5.0-1
 libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
+libpoppler730.62.0-2ubuntu2.12
 libpresage1v50.9.1-2.1ubuntu4
 libpresage-data0.9.1-2.1ubuntu4
 libprocps62:3.3.12-3ubuntu1.2
@@ -275,8 +283,10 @@ libsmartcols12.31.1-0.4ubuntu3.7
 libsnapd-glib11.58-0ubuntu0.18.04.0
 libsnappy1v51.1.7-1
 libsndfile11.0.28-4ubuntu0.18.04.2
+libsonic00.2.0-6
 libsoup2.4-12.62.1-1ubuntu0.4
 libsoup-gnome2.4-12.62.1-1ubuntu0.4
+libspeechd20.8.8-1ubuntu1
 libspeexdsp11.2~rc1.2-1ubuntu2.1
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
@@ -382,6 +392,7 @@ openssl1.1.1-1ubuntu2.1~18.04.14
 passwd1:4.5-1ubuntu2.2
 perl-base5.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
+poppler-utils0.62.0-2ubuntu2.12
 procps2:3.3.12-3ubuntu1.2
 publicsuffix20180223.1310-1
 pulseaudio1:11.1-1ubuntu7.11
@@ -405,6 +416,10 @@ sed4.4-2
 sensible-utils0.0.12
 shared-mime-info1.9-2
 software-properties-common0.96.24.32.18
+sound-icons0.1-6
+speech-dispatcher0.8.8-1ubuntu1
+speech-dispatcher-audio-plugins0.8.8-1ubuntu1
+speech-dispatcher-espeak-ng0.8.8-1ubuntu1
 ssl-cert1.0.39
 sudo1.8.21p2-3ubuntu1.4
 sysvinit-utils2.88dsf-59.10ubuntu1
