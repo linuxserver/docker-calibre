@@ -29,11 +29,14 @@ RUN \
     libxcb-randr0 \
     libxcb-render-util0 \
     libxcb-xinerama0 \
+    poppler-utils \
     python3 \
     python3-xdg \
     ttf-wqy-zenhei \
     wget \
     xz-utils && \
+  apt-get install -y \
+    speech-dispatcher && \
   echo "**** install calibre ****" && \
   mkdir -p \
     /opt/calibre && \

@@ -14,6 +14,12 @@ else
     echo "**** No auth enabled. To enable auth, you can set the PASSWORD var in docker arguments. ****"
 fi
 
+# default file copies first run
+[[ ! -f /config/.config/openbox/menu.xml ]] && \
+    mkdir -p /config/.config/openbox && \
+    cp /defaults/menu.xml /config/.config/openbox/menu.xml && \
+    chown -R abc:abc /config/.config
+
 # permissions
 chown -R abc:abc \
     /config \
