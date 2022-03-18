@@ -130,7 +130,7 @@ libegl-mesa020.0.8-0ubuntu1~18.04.1
 libelf10.170-0.4ubuntu0.1
 libepoxy01.4.3-1
 libespeak-ng11.49.2+dfsg-1
-libexpat12.2.5-3ubuntu0.4
+libexpat12.2.5-3ubuntu0.7
 libext2fs21.44.1-1ubuntu1.3
 libfcitx-config41:4.2.9.6-1
 libfcitx-core01:4.2.9.6-1
@@ -375,7 +375,7 @@ libxxf86dga12:1.1.4-1
 libxxf86vm11:1.1.4-1
 libyaml-cpp0.5v50.5.2-4ubuntu1
 libzstd11.3.3+dfsg-2ubuntu1.2
-locales2.27-3ubuntu1.4
+locales2.27-3ubuntu1.5
 login1:4.5-1ubuntu2.2
 lsb-base9.20170808ubuntu1
 lsb-release9.20170808ubuntu1
