@@ -1,1 +1,1 @@
-s6-envdir -fn -- /var/run/s6/container_environment /usr/bin/calibre $CLI_ARGS
+s6-envdir -fn -- /var/run/s6/container_environment /bin/bash -c 'umask ${UMASK:-022} && /usr/bin/calibre $CLI_ARGS'
