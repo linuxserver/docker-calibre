@@ -245,6 +245,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **31.03.22:** - Fix umask.
 * **05.01.22:** - Add arch branch for arm platforms.
 * **20.04.21:** - Fix the HOME folder.
 * **19.04.21:** - Add libnss3 back in. Make sure Calibre can access environment variables.
