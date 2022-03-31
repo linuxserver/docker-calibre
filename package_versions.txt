@@ -272,7 +272,7 @@ mathjax 3.2.0-1
 md4c 0.4.8-1
 mdadm 4.2-1
 mesa 21.3.7-2
-minizip 1:1.2.11-5
+minizip 1:1.2.12-1
 mpfr 4.1.0.p13-2
 mtdev 1.1.6-1
 ncurses 6.3-2
@@ -282,7 +282,7 @@ nodejs 17.7.1-1
 noto-fonts 20201226-2
 npth 1.6-3
 nspr 4.33-1
-nss 3.76-1
+nss 3.76.1-1
 openbox 3.6.1-8
 opencore-amr 0.1.5-5
 openjpeg2 2.4.0-1
@@ -345,13 +345,13 @@ python-packaging 20.9-7
 python-pillow 9.0.1-1
 python-ply 3.11-10
 python-psutil 5.9.0-1
-python-py7zr 0.18.1-1
+python-py7zr 0.18.3-1
 python-pychm 0.8.6-6
 python-pycparser 2.21-3
 python-pycryptodomex 3.12.0-1
 python-pygments 2.11.2-1
 python-pyparsing 3.0.7-1
-python-pyppmd 0.18.0-1
+python-pyppmd 0.18.1-1
 python-pyqt5 5.15.6-7
 python-pyqt5-sip 12.9.1-1
 python-pyqt5-webengine 5.15.5-4
