@@ -1,1 +1,2 @@
+s6-envdir -fn -- /var/run/s6/container_environment umask ${UMASK:-022}
 s6-envdir -fn -- /var/run/s6/container_environment /usr/bin/calibre $CLI_ARGS
