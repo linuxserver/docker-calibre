@@ -24,7 +24,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
 distro-info-data0.37ubuntu0.13
-docker-ce-cli5:20.10.13~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.14~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 espeak-ng-data1.49.2+dfsg-1
@@ -105,7 +105,7 @@ libcairo21.15.10-2ubuntu0.1
 libcairo-gobject21.15.10-2ubuntu0.1
 libcap21:2.25-1.2
 libcap-ng00.7.7-3.1
-libc-bin2.27-3ubuntu1.4
+libc-bin2.27-3ubuntu1.5
 libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.3
 libcroco30.6.12-2
@@ -390,7 +390,7 @@ nodejs14.19.1-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
 openssh-client1:7.6p1-4ubuntu0.6
-openssl1.1.1-1ubuntu2.1~18.04.14
+openssl1.1.1-1ubuntu2.1~18.04.15
 passwd1:4.5-1ubuntu2.2
 perl-base5.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
@@ -425,7 +425,7 @@ speech-dispatcher-espeak-ng0.8.8-1ubuntu1
 ssl-cert1.0.39
 sudo1.8.21p2-3ubuntu1.4
 sysvinit-utils2.88dsf-59.10ubuntu1
-tar1.29b-2ubuntu0.2
+tar1.29b-2ubuntu0.3
 tzdata2021e-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
