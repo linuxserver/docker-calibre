@@ -29,7 +29,7 @@ ca-certificates-mozilla 3.76-1
 ca-certificates-utils 20210603-1
 cairo 1.17.4-5
 cairomm 1.14.3-2
-calibre 5.39.1-1
+calibre 5.40.0-1
 cantarell-fonts 1:0.303.1-1
 chmlib 0.40-6
 containerd 1.6.1-1
@@ -282,7 +282,7 @@ nodejs 17.7.1-1
 noto-fonts 20201226-2
 npth 1.6-3
 nspr 4.33-1
-nss 3.76.1-1
+nss 3.77-1
 openbox 3.6.1-8
 opencore-amr 0.1.5-5
 openjpeg2 2.4.0-1
@@ -342,7 +342,7 @@ python-multivolumefile 0.2.3-3
 python-netifaces 0.11.0-3
 python-ordered-set 4.0.2-6
 python-packaging 20.9-7
-python-pillow 9.0.1-1
+python-pillow 9.1.0-1
 python-ply 3.11-10
 python-psutil 5.9.0-1
 python-py7zr 0.18.3-1
@@ -351,7 +351,7 @@ python-pycparser 2.21-3
 python-pycryptodomex 3.12.0-1
 python-pygments 2.11.2-1
 python-pyparsing 3.0.7-1
-python-pyppmd 0.18.1-1
+python-pyppmd 0.18.2-1
 python-pyqt5 5.15.6-7
 python-pyqt5-sip 12.9.1-1
 python-pyqt5-webengine 5.15.5-4
@@ -376,7 +376,7 @@ qt5-translations 5.15.3+kde+r2-1
 qt5-webchannel 5.15.3+kde+r3-1
 qt5-webengine 5.15.8-10
 rav1e 0.4.1-2
-re2 1:20220201-1
+re2 1:20220401-1
 readline 8.1.002-1
 rest 0.8.1+r4+ge5ee6ef-1
 rtkit 0.13-1
