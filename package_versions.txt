@@ -29,7 +29,7 @@ ca-certificates-mozilla 3.76-1
 ca-certificates-utils 20210603-1
 cairo 1.17.6-1
 cairomm 1.14.3-2
-calibre 5.40.0-2
+calibre 5.41.0-1
 cantarell-fonts 1:0.303.1-1
 chmlib 0.40-6
 containerd 1.6.2-1
@@ -122,7 +122,7 @@ lame 3.100-3
 lcms2 2.13.1-1
 ldns 1.8.1-1
 less 1:590-1
-libaio 0.3.112-3
+libaio 0.3.113-1
 libarchive 3.6.0-1
 libass 0.15.2-2
 libassuan 2.5.5-1
@@ -298,7 +298,7 @@ pam 1.5.2-1
 pambase 20211210-1
 pango 1:1.50.6-1
 pangomm 2.46.2-1
-parted 3.4-2
+parted 3.5-1
 patch 2.7.6-8
 pavucontrol 1:5.0-1
 pciutils 3.7.0-2
@@ -345,7 +345,7 @@ python-packaging 20.9-7
 python-pillow 9.1.0-1
 python-ply 3.11-10
 python-psutil 5.9.0-1
-python-py7zr 0.18.3-1
+python-py7zr 0.18.4-1
 python-pychm 0.8.6-6
 python-pycparser 2.21-3
 python-pycryptodomex 3.12.0-1
@@ -367,7 +367,7 @@ python-webencodings 0.5.1-9
 python-zeroconf 0.38.4-1
 python-zipfile-deflate64 0.2.0-1
 python-zipp 3.8.0-1
-qt5-base 5.15.3+kde+r137-2
+qt5-base 5.15.3+kde+r145-1
 qt5-declarative 5.15.3+kde+r20-1
 qt5-imageformats 5.15.3+kde+r0-1
 qt5-location 5.15.3+kde+r2-1
