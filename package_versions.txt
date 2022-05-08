@@ -29,7 +29,7 @@ ca-certificates-mozilla 3.77-1
 ca-certificates-utils 20210603-1
 cairo 1.17.6-2
 cairomm 1.14.3-2
-calibre 5.42.0-1
+calibre 5.42.0-2
 cantarell-fonts 1:0.303.1-1
 chmlib 0.40-6
 containerd 1.6.3-1
@@ -210,7 +210,7 @@ libtiff 4.3.0-2
 libtirpc 1.3.2-1
 libtool 2.4.7-1
 libunistring 0.9.10-3
-libunrar 1:6.1.6-1
+libunrar 1:6.1.7-1
 libunwind 1.6.2-1
 liburcu 0.13.1-1
 libusb 1.0.26-1
@@ -274,7 +274,7 @@ minizip 1:1.2.12-2
 mpfr 4.1.0.p13-2
 mtdev 1.1.6-1
 ncurses 6.3-3
-ndctl 72.1-1
+ndctl 73-1
 nettle 3.7.3-1
 nodejs 17.9.0-2
 noto-fonts 20201226-2
@@ -307,7 +307,7 @@ perl 5.34.1-1
 pinentry 1.2.0-1
 pixman 0.40.0-1
 pkgconf 1.8.0-1
-podofo 0.9.7-1
+podofo 0.9.8-1
 polkit 0.120-5
 popt 1.18-3
 procps-ng 3.3.17-1
@@ -332,17 +332,17 @@ python-ifaddr 0.1.7-5
 python-importlib-metadata 4.8.1-3
 python-jeepney 0.7.1-3
 python-lxml 4.8.0-1
-python-markdown 3.3.6-3
+python-markdown 3.3.7-1
 python-mechanize 1:0.4.6-3
-python-more-itertools 8.12.0-1
+python-more-itertools 8.12.0-2
 python-msgpack 1.0.3-1
 python-multivolumefile 0.2.3-3
 python-netifaces 0.11.0-3
 python-ordered-set 4.0.2-6
-python-packaging 20.9-7
+python-packaging 21.3-1
 python-pillow 9.1.0-1
 python-ply 3.11-10
-python-psutil 5.9.0-1
+python-psutil 5.9.0-2
 python-py7zr 0.18.5-1
 python-pychm 0.8.6-6
 python-pycparser 2.21-3
@@ -355,7 +355,7 @@ python-pyqt5-sip 12.10.1-1
 python-pyqt5-webengine 5.15.5-4
 python-pyzstd 0.15.2-1
 python-regex 2021.11.10-3
-python-setuptools 1:59.5.0-1
+python-setuptools 1:59.6.0-1
 python-sgmllib3k 1.0.0-4
 python-six 1.16.0-5
 python-soupsieve 2.3.1-1
