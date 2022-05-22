@@ -13,7 +13,7 @@ ca-certificates20210119~18.04.2
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
-curl7.58.0-2ubuntu3.17
+curl7.58.0-2ubuntu3.18
 dash0.5.8-2.10
 dbus1.12.2-1ubuntu1.3
 dbus-x111.12.2-1ubuntu1.3
@@ -24,7 +24,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
 distro-info-data0.37ubuntu0.14
-docker-ce-cli5:20.10.14~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.15~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 espeak-ng-data1.49.2+dfsg-1
@@ -110,7 +110,7 @@ libcolord21.3.3-2build1
 libcom-err21.44.1-1ubuntu1.3
 libcroco30.6.12-2
 libcups22.2.7-1ubuntu2.8
-libcurl47.58.0-2ubuntu3.17
+libcurl47.58.0-2ubuntu3.18
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
 libdbus-1-31.12.2-1ubuntu1.3
@@ -288,7 +288,7 @@ libsoup2.4-12.62.1-1ubuntu0.4
 libsoup-gnome2.4-12.62.1-1ubuntu0.4
 libspeechd20.8.8-1ubuntu1
 libspeexdsp11.2~rc1.2-1ubuntu2.1
-libsqlite3-03.22.0-1ubuntu0.4
+libsqlite3-03.22.0-1ubuntu0.5
 libss21.44.1-1ubuntu1.3
 libssl1.0.01.0.2n-1ubuntu5.9
 libssl1.11.1.1-1ubuntu2.1~18.04.17
@@ -389,8 +389,8 @@ ncurses-bin6.1-1ubuntu1.18.04
 nodejs14.19.2-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
-openssh-client1:7.6p1-4ubuntu0.6
-openssl1.1.1-1ubuntu2.1~18.04.15
+openssh-client1:7.6p1-4ubuntu0.7
+openssl1.1.1-1ubuntu2.1~18.04.17
 passwd1:4.5-1ubuntu2.2
 perl-base5.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
