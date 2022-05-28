@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:bionic
+FROM ghcr.io/linuxserver/baseimage-rdesktop-web:focal
 
 # set version label
 ARG BUILD_DATE
@@ -21,7 +21,7 @@ RUN \
     fonts-wqy-microhei \
     jq \
     libnss3 \
-    libqpdf21 \
+    libqpdf26 \
     libxkbcommon-x11-0 \
     libxcb-icccm4 \
     libxcb-image0 \
@@ -53,6 +53,13 @@ RUN \
     /opt/calibre && \
   /opt/calibre/calibre_postinstall && \
   dbus-uuidgen > /etc/machine-id && \
+  echo "**** grab websocat ****" && \
+  WEBSOCAT_RELEASE=$(curl -sX GET "https://api.github.com/repos/vi/websocat/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+  curl -o \
+    /usr/bin/websocat -fL \
+    "https://github.com/vi/websocat/releases/download/${WEBSOCAT_RELEASE}/websocat.x86_64-unknown-linux-musl" && \
+  chmod +x /usr/bin/websocat && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
