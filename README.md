@@ -245,6 +245,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.05.22:** - Rebase to focal.
 * **31.03.22:** - Fix umask.
 * **28.02.22:** - Add speech support to bionic image.
 * **05.01.22:** - Add arch branch for arm platforms.

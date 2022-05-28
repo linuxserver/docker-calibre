@@ -61,6 +61,7 @@ app_setup_block: |
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
 # changelog
 changelogs:
+  - { date: "28.05.22:", desc: "Rebase to focal." }
   - { date: "31.03.22:", desc: "Fix umask." }
   - { date: "28.02.22:", desc: "Add speech support to bionic image." }
   - { date: "05.01.22:", desc: "Add arch branch for arm platforms." }
