@@ -247,6 +247,7 @@ libogg01.3.4-0ubuntu1
 libonig56.9.4-1
 libopencc21.0.5+git20190530-1build1
 libopencc2-data1.0.5+git20190530-1build1
+libopengl01.3.2-1~ubuntu0.20.04.2
 libopenjp2-72.3.1-1ubuntu4.20.04.1
 libopus01.3.1-0ubuntu1
 liborc-0.4-01:0.4.31-1
