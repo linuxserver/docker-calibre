@@ -10,4 +10,4 @@ LABEL maintainer="aptalca"
 # add local files
 COPY root-armhf/ /
 
-# This Calibre image does not support 32 bit ARM due to lack of available OS packages
+# This Calibre image does not support 32 bit ARM due to lack of upstream support

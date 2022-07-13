@@ -6,7 +6,7 @@ cat <<-EOF
     *                                                      *
     *                         !!!!                         *
     *         This Calibre image does not support          *
-    *   32 bit ARM due to lack of available OS packages    *
+    *       32 bit ARM due to lack upstream support        *
     *                                                      *
     *                                                      *
     ********************************************************
