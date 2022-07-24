@@ -10,15 +10,11 @@ project_blurb_optional_extras_enabled: false
 
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-arch"}
-  - { arch: "{{ arch_armhf }}", tag: "arm32v7-arch"}
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-<version tag>"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-<version tag>"}
 
 # development version
-development_versions: true
-development_versions_items:
-  - { tag: "latest", desc: "Default Ubuntu based image" }
-  - { tag: "arch", desc: "Arch based image supporting arm platforms" }
+development_versions: false
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -61,6 +57,7 @@ app_setup_block: |
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
 # changelog
 changelogs:
+  - { date: "24.07.22:", desc: "Add arm64 build for master branch." }
   - { date: "11.07.22:", desc: "Update dependencies for Calibre 6." }
   - { date: "28.05.22:", desc: "Rebase to focal." }
   - { date: "31.03.22:", desc: "Fix umask." }
