@@ -1,0 +1,18 @@
+#!/usr/bin/with-contenv bash
+
+cat <<-EOF
+    ********************************************************
+    ********************************************************
+    *                                                      *
+    *                         !!!!                         *
+    *        This Calibre image no longers supports        *
+    *    32 bit ARM due to a lack of upstream packages     *
+    *   The last armhf tag will be arch-version-79d7ec5e   *
+    *                                                      *
+    *                                                      *
+    ********************************************************
+    ********************************************************
+EOF
+
+exec \
+    s6-svscanctl -t /var/run/s6/services
