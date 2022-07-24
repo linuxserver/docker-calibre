@@ -14,10 +14,7 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-<version tag>"}
 
 # development version
-development_versions: true
-development_versions_items:
-  - { tag: "latest", desc: "Default Ubuntu based image" }
-  - { tag: "arch", desc: "Arch based image supporting arm platforms" }
+development_versions: false
 
 # container parameters
 common_param_env_vars_enabled: true
