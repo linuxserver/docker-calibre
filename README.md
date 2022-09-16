@@ -81,6 +81,8 @@ services:
   calibre:
     image: lscr.io/linuxserver/calibre:latest
     container_name: calibre
+    security_opt:
+      - seccomp:unconfined #optional
     environment:
       - PUID=1000
       - PGID=1000
@@ -100,6 +102,7 @@ services:
 ```bash
 docker run -d \
   --name=calibre \
+  --security-opt seccomp=unconfined `#optional` \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
@@ -126,6 +129,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PASSWORD=` | Optionally set a password for the gui. |
 | `-e CLI_ARGS=` | Optionally pass cli start arguments to calibre. |
 | `-v /config` | Where calibre should store its database and library. |
+| `--security-opt seccomp=unconfined` | For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker. |
 
 ## Environment variables from files (Docker secrets)
 

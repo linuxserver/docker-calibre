@@ -44,6 +44,9 @@ opt_param_usage_include_ports: false
 opt_param_device_map: false
 opt_cap_add_param: false
 optional_block_1: false
+opt_security_opt_param: true
+opt_security_opt_param_vars:
+  - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker." }
 
 # application setup block
 app_setup_block_enabled: true
