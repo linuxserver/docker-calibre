@@ -236,6 +236,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **16.09.22:** - Rebase to jammy.
 * **24.07.22:** - Add arm64 build for master branch.
 * **11.07.22:** - Update dependencies for Calibre 6.
 * **28.05.22:** - Rebase to focal.
