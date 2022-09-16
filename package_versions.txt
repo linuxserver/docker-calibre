@@ -13,7 +13,7 @@ ca-certificates20211016~20.04.1
 coreutils8.30-3ubuntu2
 cpp4:9.3.0-1ubuntu2
 cpp-99.4.0-1ubuntu1~20.04.1
-curl7.68.0-1ubuntu2.12
+curl7.68.0-1ubuntu2.13
 dash0.5.10.2-6
 dbus1.12.16-2ubuntu2.2
 dbus-x111.12.16-2ubuntu2.2
@@ -116,7 +116,7 @@ libcom-err21.45.5-2ubuntu1.1
 libcrypt11:4.4.10-10ubuntu4
 libcryptsetup122:2.2.2-3ubuntu2.4
 libcups22.3.1-9ubuntu1.2
-libcurl47.68.0-1ubuntu2.12
+libcurl47.68.0-1ubuntu2.13
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdbus-1-31.12.16-2ubuntu2.2
@@ -273,7 +273,7 @@ libpixman-1-00.38.4-0ubuntu1
 libpng16-161.6.37-2
 libpolkit-agent-1-00.105-26ubuntu1.3
 libpolkit-gobject-1-00.105-26ubuntu1.3
-libpoppler970.86.1-0ubuntu1
+libpoppler970.86.1-0ubuntu1.1
 libpresage1v50.9.1-2.1ubuntu9
 libpresage-data0.9.1-2.1ubuntu9
 libprocps82:3.3.16-1ubuntu2.3
@@ -440,7 +440,7 @@ passwd1:4.8.1-1ubuntu5.20.04.1
 perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
 policykit-10.105-26ubuntu1.3
-poppler-utils0.86.1-0ubuntu1
+poppler-utils0.86.1-0ubuntu1.1
 procps2:3.3.16-1ubuntu2.3
 publicsuffix20200303.0012-1
 pulseaudio1:13.99.1-1ubuntu3.13
@@ -484,7 +484,7 @@ systemd-sysv245.4-4ubuntu3.17
 systemd-timesyncd245.4-4ubuntu3.17
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.2
-tzdata2022a-0ubuntu0.20.04
+tzdata2022c-0ubuntu0.20.04.0
 ubuntu-keyring2020.02.11.4
 ubuntu-mono19.04-0ubuntu3
 ucf3.0038+nmu1
