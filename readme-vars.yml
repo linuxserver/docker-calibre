@@ -44,6 +44,9 @@ opt_param_usage_include_ports: false
 opt_param_device_map: false
 opt_cap_add_param: false
 optional_block_1: false
+opt_security_opt_param: true
+opt_security_opt_param_vars:
+  - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker." }
 
 # application setup block
 app_setup_block_enabled: true
@@ -57,6 +60,7 @@ app_setup_block: |
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
 # changelog
 changelogs:
+  - { date: "16.09.22:", desc: "Rebase to jammy." }
   - { date: "24.07.22:", desc: "Add arm64 build for master branch." }
   - { date: "11.07.22:", desc: "Update dependencies for Calibre 6." }
   - { date: "28.05.22:", desc: "Rebase to focal." }

@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:focal
+FROM ghcr.io/linuxserver/baseimage-rdesktop-web:jammy
 
 # set version label
 ARG BUILD_DATE
@@ -22,7 +22,7 @@ RUN \
     jq \
     libnss3 \
     libopengl0 \
-    libqpdf26 \
+    libqpdf28 \
     libxkbcommon-x11-0 \
     libxcb-icccm4 \
     libxcb-image0 \

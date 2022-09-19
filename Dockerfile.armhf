@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:arm32v7-focal
+FROM ghcr.io/linuxserver/baseimage-rdesktop-web:arm32v7-jammy
 
 # set version label
 ARG BUILD_DATE
@@ -9,5 +9,15 @@ LABEL maintainer="aptalca"
 
 # add local files
 COPY root-armhf/ /
+
+# prevent baseimage services from starting
+RUN \
+  cd /etc/s6-overlay/s6-rc.d/user/contents.d && \
+  rm -rf \
+    svc-autostart \
+    svc-guacd \
+    svc-web \
+    svc-xrdp \
+    svc-xrdp-sesman
 
 # This Calibre image does not support 32 bit ARM due to lack of upstream support
