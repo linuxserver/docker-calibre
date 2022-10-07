@@ -60,6 +60,7 @@ app_setup_block: |
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
 # changelog
 changelogs:
+  - { date: "07.10.22:", desc: "Start calibre window maximized." }
   - { date: "16.09.22:", desc: "Rebase to jammy." }
   - { date: "24.07.22:", desc: "Add arm64 build for master branch." }
   - { date: "11.07.22:", desc: "Update dependencies for Calibre 6." }

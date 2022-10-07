@@ -240,6 +240,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **07.10.22:** - Start calibre window maximized.
 * **16.09.22:** - Rebase to jammy.
 * **24.07.22:** - Add arm64 build for master branch.
 * **11.07.22:** - Update dependencies for Calibre 6.
