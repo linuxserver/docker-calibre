@@ -63,7 +63,7 @@ groff-base1.22.4-8build1
 gsettings-desktop-schemas42.0-1ubuntu1
 gtk-update-icon-cache3.24.33-1ubuntu2
 guacd1.1.0-1
-gzip1.10-4ubuntu4
+gzip1.10-4ubuntu4.1
 hicolor-icon-theme0.17-2
 hostname3.23ubuntu2
 humanity-icon-theme0.6.16
@@ -258,7 +258,7 @@ libpam0g1.4.0-11ubuntu2
 libpam-modules1.4.0-11ubuntu2
 libpam-modules-bin1.4.0-11ubuntu2
 libpam-runtime1.4.0-11ubuntu2
-libpam-systemd249.11-0ubuntu3.4
+libpam-systemd249.11-0ubuntu3.6
 libpango-1.0-01.50.6+ds-2
 libpangocairo-1.0-01.50.6+ds-2
 libpangoft2-1.0-01.50.6+ds-2
@@ -266,7 +266,7 @@ libpangoxft-1.0-01.50.6+ds-2
 libpcaudio01.1-6build2
 libpciaccess00.16-3
 libpcre2-16-010.39-3ubuntu0.1
-libpcre2-8-010.39-3build1
+libpcre2-8-010.39-3ubuntu0.1
 libpcre32:8.39-13ubuntu0.22.04.1
 libpipeline11.5.5-1
 libpixman-1-00.40.0-1build4
@@ -329,7 +329,7 @@ libssl33.0.2-0ubuntu1.6
 libstartup-notification00.12-6build2
 libstdc++612.1.0-2ubuntu1~22.04
 libstemmer0d2.2.0-1build1
-libsystemd0249.11-0ubuntu3.4
+libsystemd0249.11-0ubuntu3.6
 libtasn1-64.18.0-4build1
 libtdb11.4.5-2build1
 libtext-iconv-perl1.7-7build3
@@ -341,7 +341,7 @@ libtinyxml2.6.2v52.6.2-6
 libtirpc31.3.2-2ubuntu0.1
 libtirpc-common1.3.2-2ubuntu0.1
 libuchardet00.0.7-1build2
-libudev1249.11-0ubuntu3.4
+libudev1249.11-0ubuntu3.6
 libunistring21.0-1
 libunwind81.3.2-2build2
 libusb-1.0-02:1.0.25-1ubuntu2
@@ -475,7 +475,7 @@ python3-lazr.restfulclient0.14.4-1
 python3-lazr.uri1.0.6-2
 python3-minimal3.10.6-1~22.04
 python3-more-itertools8.10.0-2
-python3-oauthlib3.2.0-1
+python3-oauthlib3.2.0-1ubuntu0.1
 python3-pkg-resources59.6.0-1.2
 python3-pyparsing2.4.7-1
 python3-secretstorage3.3.1-1
@@ -499,15 +499,15 @@ speech-dispatcher-audio-plugins0.11.1-1ubuntu2
 speech-dispatcher-espeak-ng0.11.1-1ubuntu2
 ssl-cert1.1.2
 sudo1.9.9-1ubuntu2
-systemd249.11-0ubuntu3.4
-systemd-sysv249.11-0ubuntu3.4
+systemd249.11-0ubuntu3.6
+systemd-sysv249.11-0ubuntu3.6
 sysvinit-utils3.01-1ubuntu1
 tar1.34+dfsg-1build3
 tzdata2022c-0ubuntu0.22.04.0
 ubuntu-keyring2021.03.26
 ubuntu-mono20.10-0ubuntu2
 ucf3.0043
-udev249.11-0ubuntu3.4
+udev249.11-0ubuntu3.6
 usrmerge25ubuntu2
 util-linux2.37.2-4ubuntu3
 wget1.21.2-2ubuntu1
