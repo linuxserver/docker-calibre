@@ -1,8 +1,8 @@
 adduser3.118ubuntu5
 adwaita-icon-theme41.0-1ubuntu1
-apt2.4.7
-apt-transport-https2.4.7
-apt-utils2.4.7
+apt2.4.8
+apt-transport-https2.4.8
+apt-utils2.4.8
 base-files12ubuntu4.2
 base-passwd3.5.52build1
 bash5.1-6ubuntu1
@@ -77,7 +77,7 @@ libao41.2.2+20180113-1.1ubuntu3
 libao-common1.2.2+20180113-1.1ubuntu3
 libapparmor13.0.4-2ubuntu2.1
 libappstream40.15.2-2
-libapt-pkg6.02.4.7
+libapt-pkg6.02.4.8
 libargon2-10~20171227-0.3
 libasound21.2.6.1-1ubuntu1
 libasound2-data1.2.6.1-1ubuntu1
