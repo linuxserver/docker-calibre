@@ -27,6 +27,12 @@ Find us at:
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+We recommend using the "latest" tag instead:
+https://github.com/linuxserver/docker-calibre
+
 # [linuxserver/calibre](https://github.com/linuxserver/docker-calibre)
 
 [![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fcalibre?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh/gateway/linuxserver-ci/docker/linuxserver%2Fcalibre)
@@ -57,15 +63,6 @@ The architectures supported by this image are:
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
 | armhf| ❌ | |
-
-## Version Tags
-
-This image provides various versions that are available via tags. Please read the descriptions carefully and exercise caution when using unstable or development tags.
-
-| Tag | Available | Description |
-| :----: | :----: |--- |
-| latest | ✅ | Default Ubuntu based image |
-| arch | ✅ | Arch based image supporting 64-bit arm platforms |
 
 ## Application Setup
 
@@ -245,6 +242,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **18.10.22:** - Deprecate Arch branch.
 * **13.07.22:** - Deprecate Arch armhf image due to dropping of upstream support.
 * **31.03.22:** - Fix umask.
 * **05.01.22:** - Add arch branch for arm platforms.
