@@ -10,7 +10,8 @@ LABEL maintainer="aptalca"
 ENV \
   CUSTOM_PORT="8080" \
   GUIAUTOSTART="true" \
-  HOME="/config"
+  HOME="/config" \
+  TITLE="Calibre"
 
 RUN \
   echo "**** install runtime packages ****" && \
@@ -55,13 +56,6 @@ RUN \
   /opt/calibre/calibre_postinstall && \
   dbus-uuidgen > /etc/machine-id && \
   sed -i 's|</applications>|  <application title="calibre" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
-  echo "**** grab websocat ****" && \
-  WEBSOCAT_RELEASE=$(curl -sX GET "https://api.github.com/repos/vi/websocat/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
-  curl -o \
-    /usr/bin/websocat -fL \
-    "https://github.com/vi/websocat/releases/download/${WEBSOCAT_RELEASE}/websocat.x86_64-unknown-linux-musl" && \
-  chmod +x /usr/bin/websocat && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
