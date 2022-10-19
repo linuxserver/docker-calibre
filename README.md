@@ -240,6 +240,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.10.22:** - Set the window title to `Calibre`. Remove websocat as it is now handled properly in the baseimage.
 * **18.10.22:** - Deprecate Arch branch.
 * **07.10.22:** - Start calibre window maximized.
 * **16.09.22:** - Rebase to jammy.
