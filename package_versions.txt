@@ -24,7 +24,7 @@ dictionaries-common1.28.14
 diffutils1:3.8-0ubuntu2
 dirmngr2.2.27-3ubuntu2.1
 distro-info-data0.52ubuntu0.1
-docker-ce-cli5:20.10.18~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.20~3-0~ubuntu-bionic
 dpkg1.21.1ubuntu2.1
 e2fsprogs1.46.5-2ubuntu1.1
 emacsen-common3.0.4
@@ -498,7 +498,7 @@ speech-dispatcher0.11.1-1ubuntu2
 speech-dispatcher-audio-plugins0.11.1-1ubuntu2
 speech-dispatcher-espeak-ng0.11.1-1ubuntu2
 ssl-cert1.1.2
-sudo1.9.9-1ubuntu2
+sudo1.9.9-1ubuntu2.1
 systemd249.11-0ubuntu3.6
 systemd-sysv249.11-0ubuntu3.6
 sysvinit-utils3.01-1ubuntu1
