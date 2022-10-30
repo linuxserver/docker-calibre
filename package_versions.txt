@@ -14,8 +14,8 @@ cpp-1111.2.0-19ubuntu1
 cpp4:11.2.0-1ubuntu1
 curl7.81.0-1ubuntu1.4
 dash0.5.11+git20210903+057cd650a4ed-3build1
-dbus1.12.20-2ubuntu4
-dbus-x111.12.20-2ubuntu4
+dbus1.12.20-2ubuntu4.1
+dbus-x111.12.20-2ubuntu4.1
 dconf-gsettings-backend0.40.0-3
 dconf-service0.40.0-3
 debconf1.5.79ubuntu1
@@ -119,7 +119,7 @@ libcurl3-gnutls7.81.0-1ubuntu1.4
 libcurl47.81.0-1ubuntu1.4
 libdatrie10.2.13-2
 libdb5.35.3.28+dfsg1-0.8ubuntu3
-libdbus-1-31.12.20-2ubuntu4
+libdbus-1-31.12.20-2ubuntu4.1
 libdconf10.40.0-3
 libdebconfclient00.261ubuntu1
 libdeflate01.10-2
