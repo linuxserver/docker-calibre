@@ -172,9 +172,9 @@ libgirepository-1.0-11.72.0-1
 libgl11.4.0-1
 libgl1-mesa-dri22.0.5-0ubuntu0.1
 libglapi-mesa22.0.5-0ubuntu0.1
-libglib2.0-02.72.1-1
-libglib2.0-bin2.72.1-1
-libglib2.0-data2.72.1-1
+libglib2.0-02.72.4-0ubuntu1
+libglib2.0-bin2.72.4-0ubuntu1
+libglib2.0-data2.72.4-0ubuntu1
 libglvnd01.4.0-1
 libglx01.4.0-1
 libglx-mesa022.0.5-0ubuntu0.1
@@ -335,7 +335,7 @@ libtdb11.4.5-2build1
 libtext-iconv-perl1.7-7build3
 libthai00.1.29-1build1
 libthai-data0.1.29-1build1
-libtiff54.3.0-6ubuntu0.2
+libtiff54.3.0-6ubuntu0.3
 libtinfo66.3-2
 libtinyxml2.6.2v52.6.2-6
 libtirpc31.3.2-2ubuntu0.1
