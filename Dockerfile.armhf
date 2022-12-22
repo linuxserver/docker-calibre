@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 FROM ghcr.io/linuxserver/baseimage-rdesktop-web:arm32v7-jammy
 
 # set version label
@@ -8,7 +10,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="aptalca"
 
 # add local files
-COPY root-armhf/ /
+COPY root-arm/ /
 
 # prevent baseimage services from starting
 RUN \
@@ -20,4 +22,4 @@ RUN \
     svc-xrdp \
     svc-xrdp-sesman
 
-# This Calibre image does not support 32 bit ARM due to lack of upstream support
+# This Calibre image does not support ARM due to lack of upstream support

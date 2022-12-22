@@ -1,26 +1,22 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # make our folders
 mkdir -p /config/.config/calibre
 
 # set webserver port on first install
-[[ ! -f /config/.config/calibre/server-config.txt ]] && \
+if [[ ! -f /config/.config/calibre/server-config.txt ]]; then
     echo "port 8081" > /config/.config/calibre/server-config.txt
+fi
 
-if [ -n "$PASSWORD" ]; then
+if [[ -n "$PASSWORD" ]]; then
     echo "abc:${PASSWORD}" | chpasswd
     echo "**** Setting password from environment variable. ****"
 else
     echo "**** No auth enabled. To enable auth, you can set the PASSWORD var in docker arguments. ****"
 fi
 
-# default file copies first run
-[[ ! -f /config/.config/openbox/menu.xml ]] && \
-    mkdir -p /config/.config/openbox && \
-    cp /defaults/menu.xml /config/.config/openbox/menu.xml && \
-    chown -R abc:abc /config/.config
-
 # permissions
-chown -R abc:abc \
+lsiown -R abc:abc \
     /config \
     /opt/calibre

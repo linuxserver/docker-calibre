@@ -52,7 +52,6 @@ body:
       label: CPU architecture
       options:
         - x86-64
-        - arm64
     validations:
       required: true
   - type: textarea

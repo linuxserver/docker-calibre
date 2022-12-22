@@ -11,10 +11,12 @@ project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-<version tag>"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-<version tag>"}
 
 # development version
-development_versions: false
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable Calibre releases." }
+  - { tag: "v4", desc: "Legacy 4.23.0 release of Calibre with OS package updates." }
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -56,10 +58,12 @@ app_setup_block: |
   By default, there is no password set for the main gui. Optional environment variable `PASSWORD` will allow setting a password for the user `abc`.
 
   Port 8081 is reserved for Calibre's built-in webserver, which can be enabled within the desktop app settings, and the internal port must be set to `8081` although it will then be available at the host mapped port for external access.
-  
+
   You can access advanced features of the Guacamole remote desktop using `ctrl`+`alt`+`shift` enabling you to use remote copy/paste and different languages.
+
 # changelog
 changelogs:
+  - { date: "22.12.22:", desc: "Add legacy v4 branch for amd64 only." }
   - { date: "19.10.22:", desc: "Set the window title to `Calibre`. Remove websocat as it is now handled properly in the baseimage." }
   - { date: "18.10.22:", desc: "Deprecate Arch branch." }
   - { date: "07.10.22:", desc: "Start calibre window maximized." }
