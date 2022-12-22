@@ -25,7 +25,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/calibre'
     PR_DOCKERHUB_IMAGE = 'lspipepr/calibre'
     DIST_IMAGE = 'ubuntu'
-    MULTIARCH = 'true'
+    MULTIARCH = 'false'
     CI = 'true'
     CI_WEB = 'true'
     CI_PORT = '8080'
