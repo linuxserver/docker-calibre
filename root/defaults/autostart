@@ -1,1 +1,1 @@
-s6-envdir -fn -- /var/run/s6/container_environment /bin/bash -c 'umask ${UMASK:-022} && LD_PRELOAD=/opt/calibre/lib/libffi.so.6 /usr/bin/calibre --no-update-check $CLI_ARGS'
+s6-envdir -fn -- /var/run/s6/container_environment /bin/bash -c 'umask ${UMASK:-022} && QTWEBENGINE_DISABLE_SANDBOX=1 && LD_PRELOAD=/opt/calibre/lib/libffi.so.6 /usr/bin/calibre --no-update-check $CLI_ARGS'
