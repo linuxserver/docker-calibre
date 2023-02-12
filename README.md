@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ❌ | |
-| armhf| ❌ | |
+| armhf | ❌ | |
 
 ## Version Tags
 
@@ -66,7 +66,6 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Stable Calibre releases. |
 | v4 | ✅ | Legacy 4.23.0 release of Calibre with OS package updates. |
-
 ## Application Setup
 
 This image sets up the calibre desktop app and makes its interface available via Guacamole server in the browser. The interface is available at `http://your-ip:8080`.
@@ -95,7 +94,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
       - PASSWORD= #optional
       - CLI_ARGS= #optional
     volumes:
@@ -114,7 +113,7 @@ docker run -d \
   --security-opt seccomp=unconfined `#optional` \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -e PASSWORD= `#optional` \
   -e CLI_ARGS= `#optional` \
   -p 8080:8080 \
@@ -122,6 +121,7 @@ docker run -d \
   -v /path/to/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/calibre:v4
+
 ```
 
 ## Parameters
@@ -134,7 +134,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8081` | Calibre webserver gui. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London. |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e PASSWORD=` | Optionally set a password for the gui. |
 | `-e CLI_ARGS=` | Optionally pass cli start arguments to calibre. |
 | `-v /config` | Where calibre should store its database and library. |
