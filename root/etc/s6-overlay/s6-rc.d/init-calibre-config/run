@@ -9,13 +9,6 @@ if [[ ! -f /config/.config/calibre/server-config.txt ]]; then
     echo "port 8081" > /config/.config/calibre/server-config.txt
 fi
 
-if [[ -n "$PASSWORD" ]]; then
-    echo "abc:${PASSWORD}" | chpasswd
-    echo "**** Setting password from environment variable. ****"
-else
-    echo "**** No auth enabled. To enable auth, you can set the PASSWORD var in docker arguments. ****"
-fi
-
 # permissions
 lsiown -R abc:abc \
     /config \

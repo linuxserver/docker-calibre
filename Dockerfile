@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:jammy
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
 
 # set version label
 ARG BUILD_DATE
@@ -11,7 +11,7 @@ LABEL maintainer="aptalca"
 
 ENV \
   CUSTOM_PORT="8080" \
-  GUIAUTOSTART="true" \
+  CUSTOM_HTTPS_PORT="8181" \
   HOME="/config" \
   TITLE="Calibre"
 
