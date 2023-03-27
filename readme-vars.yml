@@ -4,7 +4,7 @@
 project_name: calibre
 project_url: "https://calibre-ebook.com/"
 project_logo: "https://github.com/kovidgoyal/calibre/raw/master/resources/images/lt.png"
-project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a powerful and easy to use e-book manager. Users say it’s outstanding and a must-have. It’ll allow you to do nearly everything and it takes things a step beyond normal e-book software. It’s also completely free and open source and great for both casual users and computer experts."
+project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb_optional_extras_enabled: false
 
@@ -54,9 +54,9 @@ app_setup_block_enabled: true
 app_setup_block: |
   This image sets up the calibre desktop app and makes its interface available via Guacamole server in the browser. The interface is available at `http://your-ip:8080` or `https://your-ip:8181`.
 
-  By default, there is no password set for the main gui. Optional environment variable `PASSWORD` will allow setting a password for the user `abc`.
+  By default, there is no password set for the main gui. Optional environment variable `PASSWORD` will allow setting a password for the user `abc`, via http auth.
 
-  Port 8081 is reserved for Calibre's built-in webserver, which can be enabled within the desktop app settings, and the internal port must be set to `8081` although it will then be available at the host mapped port for external access.
+  Port 8081 is reserved for Calibre's built-in webserver, which can be enabled within the desktop app settings, and the internal port _must be_ set to `8081` although it will then be available at the host mapped port for external access.
 
   ### Options in all KasmVNC based GUI containers
 
