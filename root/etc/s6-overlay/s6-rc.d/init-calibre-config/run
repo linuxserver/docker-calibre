@@ -9,10 +9,6 @@ if [[ ! -f /config/.config/calibre/server-config.txt ]]; then
     echo "port 8081" > /config/.config/calibre/server-config.txt
 fi
 
-if [[ ! -n "$PASSWORD" ]]; then
-    echo "**** No auth enabled. To enable auth, you can set the PASSWORD var in docker arguments. ****"
-fi
-
 # default file copies first run
 if [[ ! -f /config/.config/openbox/menu.xml ]]; then
     mkdir -p /config/.config/openbox && \

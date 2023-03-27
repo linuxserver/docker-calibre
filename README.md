@@ -40,7 +40,7 @@ Find us at:
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-calibre%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-calibre/job/master/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fcalibre%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/calibre/latest/index.html)
 
-[Calibre](https://calibre-ebook.com/) is a powerful and easy to use e-book manager. Users say it’s outstanding and a must-have. It’ll allow you to do nearly everything and it takes things a step beyond normal e-book software. It’s also completely free and open source and great for both casual users and computer experts.
+[Calibre](https://calibre-ebook.com/) is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
 
 [![calibre](https://github.com/kovidgoyal/calibre/raw/master/resources/images/lt.png)](https://calibre-ebook.com/)
 
@@ -62,9 +62,9 @@ The architectures supported by this image are:
 
 This image sets up the calibre desktop app and makes its interface available via Guacamole server in the browser. The interface is available at `http://your-ip:8080` or `https://your-ip:8181`.
 
-By default, there is no password set for the main gui. Optional environment variable `PASSWORD` will allow setting a password for the user `abc`.
+By default, there is no password set for the main gui. Optional environment variable `PASSWORD` will allow setting a password for the user `abc`, via http auth.
 
-Port 8081 is reserved for Calibre's built-in webserver, which can be enabled within the desktop app settings, and the internal port must be set to `8081` although it will then be available at the host mapped port for external access.
+Port 8081 is reserved for Calibre's built-in webserver, which can be enabled within the desktop app settings, and the internal port _must be_ set to `8081` although it will then be available at the host mapped port for external access.
 
 ### Options in all KasmVNC based GUI containers
 
