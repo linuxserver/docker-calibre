@@ -13,7 +13,8 @@ ENV \
   CUSTOM_PORT="8080" \
   CUSTOM_HTTPS_PORT="8181" \
   HOME="/config" \
-  TITLE="Calibre"
+  TITLE="Calibre" \
+  QTWEBENGINE_DISABLE_SANDBOX="1"
 
 RUN \
   echo "**** install runtime packages ****" && \
