@@ -22,7 +22,6 @@ RUN \
     dbus \
     fcitx-rime \
     fonts-wqy-microhei \
-    jq \
     libnss3 \
     libopengl0 \
     libqpdf28 \
