@@ -18,5 +18,4 @@ fi
 
 # permissions
 lsiown -R abc:abc \
-    /config \
-    /opt/calibre
+    /config
