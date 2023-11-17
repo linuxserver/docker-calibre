@@ -90,6 +90,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "17.11.23:", desc: "Install libxcb-cursor0 for v7 support." }
   - { date: "18.03.23:", desc: "Rebase to KasmVNC base image." }
   - { date: "19.10.22:", desc: "Set the window title to `Calibre`. Remove websocat as it is now handled properly in the baseimage." }
   - { date: "18.10.22:", desc: "Deprecate Arch branch." }
