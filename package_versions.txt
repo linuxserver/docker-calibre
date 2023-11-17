@@ -1072,6 +1072,7 @@ libx264-163                                                                   2:
 libx265-199                                                                   3.5-2                                     deb        
 libxau6                                                                       1:1.0.9-1build5                           deb        
 libxaw7                                                                       2:1.0.14-1                                deb        
+libxcb-cursor0                                                                0.1.1-4ubuntu1                            deb        
 libxcb-dri2-0                                                                 1.14-3ubuntu3                             deb        
 libxcb-dri3-0                                                                 1.14-3ubuntu3                             deb        
 libxcb-glx0                                                                   1.14-3ubuntu3                             deb        
