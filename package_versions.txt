@@ -1247,7 +1247,7 @@ pulseaudio                                                                    1:
 pulseaudio-utils                                                              1:15.99.1+dfsg1-1ubuntu2.1                deb        
 pulseaudio2                                                                   0.5.5                                     npm        
 pyparsing                                                                     2.4.7                                     python     
-python                                                                        3.10.1                                    binary     
+python                                                                        3.11.5                                    binary     
 python-apt                                                                    2.4.0+ubuntu2                             python     
 python-apt-common                                                             2.4.0ubuntu2                              deb        
 python3                                                                       3.10.6-1~22.04                            deb        
