@@ -27,6 +27,7 @@ RUN \
     libopengl0 \
     libqpdf28 \
     libxkbcommon-x11-0 \
+    libxcb-cursor0 \
     libxcb-icccm4 \
     libxcb-image0 \
     libxcb-keysyms1 \
