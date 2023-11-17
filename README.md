@@ -337,6 +337,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **17.11.23:** - Install libxcb-cursor0 for v7 support.
 * **18.03.23:** - Rebase to KasmVNC base image.
 * **19.10.22:** - Set the window title to `Calibre`. Remove websocat as it is now handled properly in the baseimage.
 * **18.10.22:** - Deprecate Arch branch.
