@@ -942,8 +942,8 @@ libpng16-16                                                                   1.
 libpocketsphinx3                                                              0.8.0+real5prealpha+1-14ubuntu1           deb        
 libpolkit-agent-1-0                                                           0.105-33                                  deb        
 libpolkit-gobject-1-0                                                         0.105-33                                  deb        
-libpoppler-cpp0v5                                                             22.02.0-2ubuntu0.2                        deb        
-libpoppler118                                                                 22.02.0-2ubuntu0.2                        deb        
+libpoppler-cpp0v5                                                             22.02.0-2ubuntu0.3                        deb        
+libpoppler118                                                                 22.02.0-2ubuntu0.3                        deb        
 libpostproc55                                                                 7:4.4.2-0ubuntu0.22.04.1                  deb        
 libpresage-data                                                               0.9.1-2.2ubuntu1                          deb        
 libpresage1v5                                                                 0.9.1-2.2ubuntu1                          deb        
@@ -1231,7 +1231,7 @@ pkexec                                                                        0.
 policykit-1                                                                   0.105-33                                  deb        
 polkitd                                                                       0.105-33                                  deb        
 poppler-data                                                                  0.4.11-1                                  deb        
-poppler-utils                                                                 22.02.0-2ubuntu0.2                        deb        
+poppler-utils                                                                 22.02.0-2ubuntu0.3                        deb        
 postcss-selector-parser                                                       6.0.13                                    npm        
 printer-driver-cups-pdf                                                       3.0.1-14                                  deb        
 proc-log                                                                      3.0.0                                     npm        
