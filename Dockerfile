@@ -58,7 +58,7 @@ RUN \
     /opt/calibre && \
   /opt/calibre/calibre_postinstall && \
   dbus-uuidgen > /etc/machine-id && \
-  sed -i 's|</applications>|  <application title="calibre" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
+  sed -i 's|</applications>|  <application name="calibre-gui" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
