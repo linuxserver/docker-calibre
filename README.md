@@ -41,7 +41,7 @@ Find us at:
 
 [Calibre](https://calibre-ebook.com/) is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.
 
-[![calibre](https://github.com/kovidgoyal/calibre/raw/master/resources/images/lt.png)](https://calibre-ebook.com/)
+[![calibre](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-logo.png)](https://calibre-ebook.com/)
 
 ## Supported Architectures
 
@@ -57,9 +57,18 @@ The architectures supported by this image are:
 | arm64 | ✅ | arm64v8-\<version tag\> |
 | armhf | ❌ | |
 
+## Version Tags
+
+This image provides various versions that are available via tags. Please read the descriptions carefully and exercise caution when using unstable or development tags.
+
+| Tag | Available | Description |
+| :----: | :----: |--- |
+| latest | ✅ | Latest Calibre releases |
+| v4 | ✅ | Calibre v4 releases (x86_64 only) |
+
 ## Application Setup
 
-This image sets up the calibre desktop app and makes its interface available via Guacamole server in the browser. The interface is available at `http://your-ip:8080` or `https://your-ip:8181`.
+This image sets up the calibre desktop app and makes its interface available via KasmVNC server in the browser. The interface is available at `http://your-ip:8080` or `https://your-ip:8181`.
 
 By default, there is no password set for the main gui. Optional environment variable `PASSWORD` will allow setting a password for the user `abc`, via http auth.
 
@@ -321,6 +330,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **31.01.24:** - Fix fullscreen on start.
 * **17.11.23:** - Install libxcb-cursor0 for v7 support.
 * **18.03.23:** - Rebase to KasmVNC base image.
 * **19.10.22:** - Set the window title to `Calibre`. Remove websocat as it is now handled properly in the baseimage.
