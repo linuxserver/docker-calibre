@@ -1,0 +1,348 @@
+{
+  "action-layout-toolbar": [
+    "Add Books",
+    "Edit Metadata",
+    "Convert Books",
+    "Remove Books",
+    "Save To Disk",
+    "Connect Share",
+    "Preferences"
+  ],
+  "auto_add_check_for_duplicates": true,
+  "auto_add_path": "/config/Calibre Library",
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA9QAAAXoAAAEKAf////8BAAAAAQA="
+  },
+  "book_details_splitter_horizontal_state": [
+    true,
+    200
+  ],
+  "book_details_splitter_vertical_state": [
+    false,
+    0
+  ],
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "color_palette": "dark",
+  "cover_browser_splitter_horizontal_state": [
+    false,
+    550
+  ],
+  "cover_browser_splitter_vertical_state": [
+    false,
+    300
+  ],
+  "cover_grid_color": [
+    80,
+    80,
+    80
+  ],
+  "cover_grid_texture": null,
+  "default_author_link": null,
+  "dnd_merge": false,
+  "filename_pattern_history": [
+    "(?P<title>.+)",
+    "(?P<author>[^_-]+) -?\\s*(?P<series>[^_0-9-]*)(?P<series_index>[0-9]*)\\s*-\\s*(?P<title>[^_].+) ?",
+    "(?P<title>.+) - (?P<author>[^_]+)"
+  ],
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 612,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 593,
+      "width": 1366,
+      "x": 0,
+      "y": 19
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 593,
+      "width": 1366,
+      "x": 0,
+      "y": 19
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABVUAAAJjAAAAAAAAABMAAAVVAAACYwAAAAACAAAABVYAAAAAAAAAEwAABVUAAAJj"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "VNC-0",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 612,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-config_widget_dialog_geometry_Sharing_Metadata download": {
+    "frame_geometry": {
+      "height": 563,
+      "width": 496,
+      "x": 431,
+      "y": -8
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 538,
+      "width": 494,
+      "x": 432,
+      "y": 12
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 538,
+      "width": 494,
+      "x": 432,
+      "y": 12
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAGv////+AAAA54AAAIqAAABsAAAAAwAAAOdAAACJQAAAAAAAAAABVYAAAGwAAAADAAAA50AAAIl"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "VNC-0",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 612,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-convert_single_dialog_geom": {
+    "frame_geometry": {
+      "height": 537,
+      "width": 1298,
+      "x": 24,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 512,
+      "width": 1296,
+      "x": 25,
+      "y": 20
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 512,
+      "width": 1296,
+      "x": 25,
+      "y": 20
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAYAAAAAAAABSkAAAIYAAAAGQAAABQAAAUoAAACEwAAAAAAAAAABVYAAAAZAAAAFAAABSgAAAIT"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "VNC-0",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 612,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-metasingle_window_geometry3": {
+    "frame_geometry": {
+      "height": 587,
+      "width": 1298,
+      "x": 24,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 562,
+      "width": 1296,
+      "x": 25,
+      "y": 20
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 562,
+      "width": 1296,
+      "x": 25,
+      "y": 20
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAYAAAAAAAABSkAAAJKAAAAGQAAABQAAAUoAAACRQAAAAAAAAAABVYAAAAZAAAAFAAABSgAAAJF"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "VNC-0",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 612,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 616,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 593,
+      "width": 1366,
+      "x": 0,
+      "y": 19
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 593,
+      "width": 1366,
+      "x": 0,
+      "y": 19
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABVUAAAJnAAAAAAAAABMAAAVVAAACYwAAAAACAAAABVYAAAAAAAAAEwAABVUAAAJj"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "VNC-0",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 612,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 612,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "gpm_template_editor_font": "Sans Serif",
+  "gpm_template_editor_word_wrap_mode": true,
+  "grid view visible": false,
+  "library_usage_stats": {
+    "/config/Calibre Library": 9
+  },
+  "manual_add_auto_convert": true,
+  "previous_sort_order_BooksView": {
+    "size": true
+  },
+  "quick_start_guide_added": true,
+  "quickview visible": false,
+  "recently_used_languages": [
+    "English"
+  ],
+  "replace_scene_breaks_history": [
+    "",
+    "<hr />",
+    "∗ ∗ ∗",
+    "• • •",
+    "♦ ♦ ♦",
+    "† †",
+    "‡ ‡ ‡",
+    "∞ ∞ ∞",
+    "¤ ¤ ¤"
+  ],
+  "search bar visible": true,
+  "show_emblems": false,
+  "tag browser search box visible": false,
+  "tag_browser_splitter_horizontal_state": [
+    true,
+    200
+  ],
+  "tb_search_order": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 0
+  },
+  "template_functions_prefs_st_show_help": true,
+  "template_functions_prefs_tf_show_help": true
+}

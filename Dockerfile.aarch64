@@ -11,7 +11,6 @@ LABEL maintainer="aptalca"
 
 ENV \
   CUSTOM_PORT="8080" \
-  CUSTOM_HTTPS_PORT="8181" \
   HOME="/config" \
   TITLE="Calibre" \
   QTWEBENGINE_DISABLE_SANDBOX="1"
@@ -25,6 +24,7 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     dbus \
+    rsync \
     fcitx-rime \
     fonts-wqy-microhei \
     libnss3 \

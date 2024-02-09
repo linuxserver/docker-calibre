@@ -1,0 +1,8 @@
+{
+  "default_tweak_format": "EPUB",
+  "restrict_output_formats": "EPUB",
+  "save_original_format": false,
+  "save_original_format_when_polishing": false,
+  "save_template_title_series_sorting": "strictly_alphabetic",
+  "title_series_sorting": "strictly_alphabetic"
+}

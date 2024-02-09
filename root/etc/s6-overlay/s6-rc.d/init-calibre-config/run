@@ -9,6 +9,15 @@ if [[ ! -f /config/.config/calibre/server-config.txt ]]; then
     echo "port 8081" > /config/.config/calibre/server-config.txt
 fi
 
+if [[ ! -f /config/.config/calibre/tweaks.json ]]; then
+    rsync -av -f'- dep*/' -f'- run' -f'- type' -f'- up' /etc/s6-overlay/s6-rc.d/init-calibre-config/ /config/.config/calibre/
+fi
+
+if [[ -d /config/ssl ]]; then
+    sed -i '/ssl/s/^/# /' /etc/nginx/sites-*/*
+    rm -rf /config/ssl
+fi
+
 # default file copies first run
 if [[ ! -f /config/.config/openbox/menu.xml ]]; then
     mkdir -p /config/.config/openbox && \

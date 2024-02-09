@@ -1,0 +1,19 @@
+{
+  "add books dialog dir": "/config/Calibre Library",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "auto add path choose": "/config/Calibre Library",
+  "library_delete_books_again": false,
+  "save to disk dialog": "/config",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

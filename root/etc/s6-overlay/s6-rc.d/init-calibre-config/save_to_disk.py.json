@@ -1,0 +1,15 @@
+{
+  "asciiize": true,
+  "formats": "all",
+  "replace_whitespace": false,
+  "save_cover": false,
+  "save_extra_files": true,
+  "send_template": "{series_index} {title}",
+  "send_timefmt": "%b, %Y",
+  "single_dir": false,
+  "template": "{series_index} {title}",
+  "timefmt": "%b, %Y",
+  "to_lowercase": false,
+  "update_metadata": true,
+  "write_opf": false
+}
