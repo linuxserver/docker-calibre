@@ -91,6 +91,9 @@ This container is based on [Docker Baseimage KasmVNC](https://github.com/linuxse
 | FM_HOME | This is the home directory (landing) for the file manager, default "/config". |
 | START_DOCKER | If set to false a container with privilege will not automatically start the DinD Docker setup. |
 | DRINODE | If mounting in /dev/dri for [DRI3 GPU Acceleration](https://www.kasmweb.com/kasmvnc/docs/master/gpu_acceleration.html) allows you to specify the device to use IE `/dev/dri/renderD128` |
+| LC_ALL | Set the Language for the container to run as IE `fr_FR.UTF-8` `ar_AE.UTF-8` |
+| NO_DECOR | If set the application will run without window borders for use as a PWA. |
+| NO_FULL | Do not autmatically fullscreen applications when using openbox. |
 
 #### Optional run configurations
 
@@ -99,6 +102,20 @@ This container is based on [Docker Baseimage KasmVNC](https://github.com/linuxse
 | `--privileged` | Will start a Docker in Docker (DinD) setup inside the container to use docker in an isolated environment. For increased performance mount the Docker directory inside the container to the host IE `-v /home/user/docker-data:/var/lib/docker`. |
 | `-v /var/run/docker.sock:/var/run/docker.sock` | Mount in the host level Docker socket to either interact with it via CLI or use Docker enabled applications. |
 | `--device /dev/dri:/dev/dri` | Mount a GPU into the container, this can be used in conjunction with the `DRINODE` environment variable to leverage a host video card for GPU accelerated appplications. Only **Open Source** drivers are supported IE (Intel,AMDGPU,Radeon,ATI,Nouveau) |
+
+### Language Support - Internationalization
+
+The environment variable `LC_ALL` can be used to start this image in a different language than English simply pass for example to launch the Desktop session in French `LC_ALL=fr_FR.UTF-8`. Some languages like Chinese, Japanese, or Korean will be missing fonts needed to render properly known as cjk fonts, but others may exist and not be installed. We only ensure fonts for Latin characters are present. Fonts can be installed with a mod on startup.
+
+To install cjk fonts on startup as an example pass the environment variables:
+
+```
+-e DOCKER_MODS=linuxserver/mods:universal-package-install
+-e INSTALL_PACKAGES=fonts-noto-cjk
+-e LC_ALL=zh_CN.UTF-8
+```
+
+The web interface has the option for "IME Input Mode" in Settings which will allow non english characters to be used from a non en_US keyboard on the client. Once enabled it will perform the same as a local Linux installation set to your locale.
 
 ### Lossless mode
 
@@ -330,6 +347,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **31.01.24:** - Fix fullscreen on start.
 * **17.11.23:** - Install libxcb-cursor0 for v7 support.
 * **18.03.23:** - Rebase to KasmVNC base image.

@@ -17,6 +17,10 @@ ENV \
   QTWEBENGINE_DISABLE_SANDBOX="1"
 
 RUN \
+  echo "**** add icon ****" && \
+  curl -o \
+    /kclient/public/icon.png \
+    https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-icon.png && \
   echo "**** install runtime packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
@@ -58,7 +62,6 @@ RUN \
     /opt/calibre && \
   /opt/calibre/calibre_postinstall && \
   dbus-uuidgen > /etc/machine-id && \
-  sed -i 's|</applications>|  <application name="calibre-gui" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
