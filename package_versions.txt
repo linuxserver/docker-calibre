@@ -112,16 +112,16 @@ cron                                                                          3.
 cross-spawn                                                                   7.0.3                                    npm                         
 cryptography                                                                  3.4.8                                    python                      
 cssesc                                                                        3.0.0                                    npm                         
-cups                                                                          2.4.1op1-1ubuntu4.9                      deb                         
-cups-client                                                                   2.4.1op1-1ubuntu4.9                      deb                         
-cups-common                                                                   2.4.1op1-1ubuntu4.9                      deb                         
-cups-core-drivers                                                             2.4.1op1-1ubuntu4.9                      deb                         
-cups-daemon                                                                   2.4.1op1-1ubuntu4.9                      deb                         
+cups                                                                          2.4.1op1-1ubuntu4.10                     deb                         
+cups-client                                                                   2.4.1op1-1ubuntu4.10                     deb                         
+cups-common                                                                   2.4.1op1-1ubuntu4.10                     deb                         
+cups-core-drivers                                                             2.4.1op1-1ubuntu4.10                     deb                         
+cups-daemon                                                                   2.4.1op1-1ubuntu4.10                     deb                         
 cups-filters                                                                  1.28.15-0ubuntu1.2                       deb                         
 cups-filters-core-drivers                                                     1.28.15-0ubuntu1.2                       deb                         
-cups-ipp-utils                                                                2.4.1op1-1ubuntu4.9                      deb                         
-cups-ppdc                                                                     2.4.1op1-1ubuntu4.9                      deb                         
-cups-server-common                                                            2.4.1op1-1ubuntu4.9                      deb                         
+cups-ipp-utils                                                                2.4.1op1-1ubuntu4.10                     deb                         
+cups-ppdc                                                                     2.4.1op1-1ubuntu4.10                     deb                         
+cups-server-common                                                            2.4.1op1-1ubuntu4.10                     deb                         
 curl                                                                          7.81.0-1ubuntu1.16                       deb                         
 dario.cat/mergo                                                               v1.0.0                                   go-module  (+2 duplicates)  
 dash                                                                          0.5.11+git20210903+057cd650a4ed-3build1  deb                         
@@ -146,8 +146,8 @@ diffutils                                                                     1:
 dirmngr                                                                       2.2.27-3ubuntu2.1                        deb                         
 distro                                                                        1.7.0                                    python                      
 distro-info-data                                                              0.52ubuntu0.7                            deb                         
-docker-ce                                                                     5:27.0.1-1~ubuntu.22.04~jammy            deb                         
-docker-ce-cli                                                                 5:27.0.1-1~ubuntu.22.04~jammy            deb                         
+docker-ce                                                                     5:27.0.2-1~ubuntu.22.04~jammy            deb                         
+docker-ce-cli                                                                 5:27.0.2-1~ubuntu.22.04~jammy            deb                         
 docker-compose-plugin                                                         2.28.1-1~ubuntu.22.04~jammy              deb                         
 dpkg                                                                          1.21.1ubuntu2.3                          deb                         
 e2fsprogs                                                                     1.46.5-2ubuntu1.1                        deb                         
@@ -166,7 +166,7 @@ err-code                                                                      2.
 es-define-property                                                            1.0.0                                    npm                         
 es-errors                                                                     1.3.0                                    npm                         
 escape-html                                                                   1.0.3                                    npm                         
-espeak-ng-data                                                                1.50+dfsg-10                             deb                         
+espeak-ng-data                                                                1.50+dfsg-10ubuntu0.1                    deb                         
 etag                                                                          1.8.1                                    npm                         
 event-target-shim                                                             5.0.1                                    npm                         
 events                                                                        3.3.0                                    npm                         
@@ -286,11 +286,11 @@ github.com/dimchansky/utfbom                                                  v1
 github.com/distribution/reference                                             v0.6.0                                   go-module  (+1 duplicate)   
 github.com/docker/buildx                                                      v0.15.1                                  go-module                   
 github.com/docker/cli                                                         v27.0.1-rc.1+incompatible                go-module                   
-github.com/docker/cli/cmd/docker                                              v27.0.1                                  go-module                   
+github.com/docker/cli/cmd/docker                                              v27.0.2                                  go-module                   
 github.com/docker/compose/v2                                                  v2.28.1                                  go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                      go-module  (+1 duplicate)   
-github.com/docker/docker                                                      v27.0.1                                  go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v27.0.1-rc.1+incompatible                go-module                   
+github.com/docker/docker                                                      v27.0.2                                  go-module  (+1 duplicate)   
 github.com/docker/docker-credential-helpers                                   v0.8.0                                   go-module                   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c   go-module                   
 github.com/docker/go-connections                                              v0.5.0                                   go-module  (+1 duplicate)   
@@ -696,7 +696,7 @@ libcodec2-1.0                                                                 1.
 libcom-err2                                                                   1.46.5-2ubuntu1.1                        deb                         
 libcrypt1                                                                     1:4.4.27-1                               deb                         
 libcryptsetup12                                                               2:2.4.3-1ubuntu1.2                       deb                         
-libcups2                                                                      2.4.1op1-1ubuntu4.9                      deb                         
+libcups2                                                                      2.4.1op1-1ubuntu4.10                     deb                         
 libcupsfilters1                                                               1.28.15-0ubuntu1.2                       deb                         
 libcurl3-gnutls                                                               7.81.0-1ubuntu1.16                       deb                         
 libcurl4                                                                      7.81.0-1ubuntu1.16                       deb                         
@@ -732,7 +732,7 @@ libegl1                                                                       1.
 libelf1                                                                       0.186-1build1                            deb                         
 libenchant-2-2                                                                2.3.2-1ubuntu2                           deb                         
 libepoxy0                                                                     1.5.10-1                                 deb                         
-libespeak-ng1                                                                 1.50+dfsg-10                             deb                         
+libespeak-ng1                                                                 1.50+dfsg-10ubuntu0.1                    deb                         
 libeval-closure-perl                                                          0.14-1                                   deb                         
 libevdev2                                                                     1.12.1+dfsg-1                            deb                         
 libexception-class-perl                                                       1.45-1                                   deb                         
@@ -1204,7 +1204,7 @@ on-finished                                                                   2.
 once                                                                          1.4.0                                    npm                         
 openbox                                                                       3.6.1-10                                 deb                         
 openssh-client                                                                1:8.9p1-3ubuntu0.7                       deb                         
-openssl                                                                       3.0.2-0ubuntu1.15                        deb                         
+openssl                                                                       3.0.2-0ubuntu1.16                        deb                         
 p-map                                                                         4.0.0                                    npm                         
 packagekit                                                                    1.2.5-2ubuntu2                           deb                         
 pacote                                                                        15.1.3                                   npm                         
@@ -1376,7 +1376,7 @@ vary                                                                          1.
 wadllib                                                                       1.3.6                                    python                      
 walk-up-path                                                                  3.0.1                                    npm                         
 wcwidth                                                                       1.0.1                                    npm                         
-wget                                                                          1.21.2-2ubuntu1                          deb                         
+wget                                                                          1.21.2-2ubuntu1.1                        deb                         
 which                                                                         2.0.2                                    npm        (+1 duplicate)   
 which                                                                         3.0.1                                    npm                         
 wide-align                                                                    1.1.5                                    npm                         
