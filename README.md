@@ -347,6 +347,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.08.24:** - Rebase to noble.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **31.01.24:** - Fix fullscreen on start.
 * **17.11.23:** - Install libxcb-cursor0 for v7 support.

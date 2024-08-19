@@ -110,6 +110,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "19.08.24:", desc: "Rebase to noble." }
   - { date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon." }
   - { date: "31.01.24:", desc: "Fix fullscreen on start." }
   - { date: "17.11.23:", desc: "Install libxcb-cursor0 for v7 support." }
