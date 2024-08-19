@@ -142,7 +142,7 @@ services:
       - PASSWORD= #optional
       - CLI_ARGS= #optional
     volumes:
-      - /path/to/data:/config
+      - /path/to/calibre/config:/config
     ports:
       - 8080:8080
       - 8181:8181
@@ -164,7 +164,7 @@ docker run -d \
   -p 8080:8080 \
   -p 8181:8181 \
   -p 8081:8081 \
-  -v /path/to/data:/config \
+  -v /path/to/calibre/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/calibre:latest
 ```

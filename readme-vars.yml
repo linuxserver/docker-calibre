@@ -22,32 +22,19 @@ development_versions_items:
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
-param_usage_include_net: false
-param_usage_include_env: true
-param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Where calibre should store its database and library." }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Where calibre should store its database and library." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8080", internal_port: "8080", port_desc: "Calibre desktop gui." }
   - { external_port: "8181", internal_port: "8181", port_desc: "Calibre desktop gui HTTPS." }
   - { external_port: "8081", internal_port: "8081", port_desc: "Calibre webserver gui." }
-param_device_map: false
-cap_add_param: false
-cap_add_param_vars: ''
-
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "PASSWORD", env_value: "", desc: "Optionally set a password for the gui." }
   - { env_var: "CLI_ARGS", env_value: "", desc: "Optionally pass cli start arguments to calibre."}
-opt_param_usage_include_vols: false
-opt_param_usage_include_ports: false
-opt_param_device_map: false
-opt_cap_add_param: false
-optional_block_1: false
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker." }
