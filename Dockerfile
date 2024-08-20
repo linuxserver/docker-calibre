@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntujammy
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntunoble
 
 # set version label
 ARG BUILD_DATE
@@ -29,7 +29,7 @@ RUN \
     fonts-wqy-microhei \
     libnss3 \
     libopengl0 \
-    libqpdf28 \
+    libqpdf29t64 \
     libxkbcommon-x11-0 \
     libxcb-icccm4 \
     libxcb-image0 \
@@ -59,6 +59,7 @@ RUN \
     /opt/calibre && \
   /opt/calibre/calibre_postinstall && \
   dbus-uuidgen > /etc/machine-id && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
