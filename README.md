@@ -142,7 +142,7 @@ services:
       - PASSWORD= #optional
       - CLI_ARGS= #optional
     volumes:
-      - /path/to/data:/config
+      - /path/to/calibre/config:/config
     ports:
       - 8080:8080
       - 8181:8181
@@ -164,7 +164,7 @@ docker run -d \
   -p 8080:8080 \
   -p 8181:8181 \
   -p 8081:8081 \
-  -v /path/to/data:/config \
+  -v /path/to/calibre/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/calibre:latest
 ```
@@ -347,6 +347,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.08.24:** - Rebase to noble.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **31.01.24:** - Fix fullscreen on start.
 * **17.11.23:** - Install libxcb-cursor0 for v7 support.
