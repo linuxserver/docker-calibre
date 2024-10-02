@@ -1032,52 +1032,41 @@ EOF
             returnStdout: true).trim()
         if (env.EXIT_STATUS == "ABORTED"){
           sh 'echo "build aborted"'
-        }
-        else if (currentBuild.currentResult == "SUCCESS"){
-          if (env.GITHUBIMAGE =~ /lspipepr/){
-          sh ''' curl -X POST -H "Content-Type: application/json" --data '{"avatar_url": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jenkins-avatar.png","embeds": [{"color": 3957028,\
-                 "footer": {"text" : "PR Build"},\
-                 "timestamp": "'${JOB_DATE}'",\
-                 "description": "**Build:**  '${BUILD_NUMBER}'\\n**CI Results:**  '${CI_URL}'\\n**ShellCheck Results:**  '${SHELLCHECK_URL}'\\n**Status:**  Success\\n**Job:** '${RUN_DISPLAY_URL}'\\n**Change:** '${CODE_URL}'\\n**External Release:**: '${RELEASE_LINK}'\\n**DockerHub:** '${DOCKERHUB_LINK}'\\n"}],\
-                 "username": "Jenkins"}' ${BUILDS_DISCORD} '''
+        }else{
+          if (currentBuild.currentResult == "SUCCESS"){
+            if (env.GITHUBIMAGE =~ /lspipepr/){
+              env.JOB_WEBHOOK_STATUS='Success'
+              env.JOB_WEBHOOK_COLOUR=3957028
+              env.JOB_WEBHOOK_FOOTER='PR Build'
+            }else if (env.GITHUBIMAGE =~ /lsiodev/){
+              env.JOB_WEBHOOK_STATUS='Success'
+              env.JOB_WEBHOOK_COLOUR=3957028
+              env.JOB_WEBHOOK_FOOTER='Dev Build'
+            }else{
+              env.JOB_WEBHOOK_STATUS='Success'
+              env.JOB_WEBHOOK_COLOUR=1681177
+              env.JOB_WEBHOOK_FOOTER='Live Build'
+            }
+          }else{
+            if (env.GITHUBIMAGE =~ /lspipepr/){
+              env.JOB_WEBHOOK_STATUS='Failure'
+              env.JOB_WEBHOOK_COLOUR=12669523
+              env.JOB_WEBHOOK_FOOTER='PR Build'
+            }else if (env.GITHUBIMAGE =~ /lsiodev/){
+              env.JOB_WEBHOOK_STATUS='Failure'
+              env.JOB_WEBHOOK_COLOUR=12669523
+              env.JOB_WEBHOOK_FOOTER='Dev Build'
+            }else{
+              env.JOB_WEBHOOK_STATUS='Failure'
+              env.JOB_WEBHOOK_COLOUR=16711680
+              env.JOB_WEBHOOK_FOOTER='Live Build'
+            }
           }
-          else if (env.GITHUBIMAGE =~ /lsiodev/){
-          sh ''' curl -X POST -H "Content-Type: application/json" --data '{"avatar_url": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jenkins-avatar.png","embeds": [{"color": 3957028,\
-                 "footer": {"text" : "Dev Build"},\
+          sh ''' curl -X POST -H "Content-Type: application/json" --data '{"avatar_url": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jenkins-avatar.png","embeds": [{"'color'": '${JOB_WEBHOOK_COLOUR}',\
+                 "footer": {"text" : "'"${JOB_WEBHOOK_FOOTER}"'"},\
                  "timestamp": "'${JOB_DATE}'",\
-                 "description": "**Build:**  '${BUILD_NUMBER}'\\n**CI Results:**  '${CI_URL}'\\n**ShellCheck Results:**  '${SHELLCHECK_URL}'\\n**Status:**  Success\\n**Job:** '${RUN_DISPLAY_URL}'\\n**Change:** '${CODE_URL}'\\n**External Release:**: '${RELEASE_LINK}'\\n**DockerHub:** '${DOCKERHUB_LINK}'\\n"}],\
+                 "description": "**Build:**  '${BUILD_NUMBER}'\\n**CI Results:**  '${CI_URL}'\\n**ShellCheck Results:**  '${SHELLCHECK_URL}'\\n**Status:**  '${JOB_WEBHOOK_STATUS}'\\n**Job:** '${RUN_DISPLAY_URL}'\\n**Change:** '${CODE_URL}'\\n**External Release:**: '${RELEASE_LINK}'\\n**DockerHub:** '${DOCKERHUB_LINK}'\\n"}],\
                  "username": "Jenkins"}' ${BUILDS_DISCORD} '''
-          }
-          else{
-          sh ''' curl -X POST -H "Content-Type: application/json" --data '{"avatar_url": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jenkins-avatar.png","embeds": [{"color": 1681177,\
-                 "footer": {"text" : "Live Build"},\
-                 "timestamp": "'${JOB_DATE}'",\
-                 "description": "**Build:**  '${BUILD_NUMBER}'\\n**CI Results:**  '${CI_URL}'\\n**ShellCheck Results:**  '${SHELLCHECK_URL}'\\n**Status:**  Success\\n**Job:** '${RUN_DISPLAY_URL}'\\n**Change:** '${CODE_URL}'\\n**External Release:**: '${RELEASE_LINK}'\\n**DockerHub:** '${DOCKERHUB_LINK}'\\n"}],\
-                 "username": "Jenkins"}' ${BUILDS_DISCORD} '''
-          }
-        }
-        else {
-          if (env.GITHUBIMAGE =~ /lspipepr/){
-          sh ''' curl -X POST -H "Content-Type: application/json" --data '{"avatar_url": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jenkins-avatar.png","embeds": [{"color": 12669523,\
-                 "footer": {"text" : "PR Build"},\
-                 "timestamp": "'${JOB_DATE}'",\
-                 "description": "**Build:**  '${BUILD_NUMBER}'\\n**CI Results:**  '${CI_URL}'\\n**ShellCheck Results:**  '${SHELLCHECK_URL}'\\n**Status:**  Success\\n**Job:** '${RUN_DISPLAY_URL}'\\n**Change:** '${CODE_URL}'\\n**External Release:**: '${RELEASE_LINK}'\\n**DockerHub:** '${DOCKERHUB_LINK}'\\n"}],\
-                 "username": "Jenkins"}' ${BUILDS_DISCORD} '''
-          }
-          else if (env.GITHUBIMAGE =~ /lsiodev/){
-          sh ''' curl -X POST -H "Content-Type: application/json" --data '{"avatar_url": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jenkins-avatar.png","embeds": [{"color": 12669523,\
-                 "footer": {"text" : "Dev Build"},\
-                 "timestamp": "'${JOB_DATE}'",\
-                 "description": "**Build:**  '${BUILD_NUMBER}'\\n**CI Results:**  '${CI_URL}'\\n**ShellCheck Results:**  '${SHELLCHECK_URL}'\\n**Status:**  Success\\n**Job:** '${RUN_DISPLAY_URL}'\\n**Change:** '${CODE_URL}'\\n**External Release:**: '${RELEASE_LINK}'\\n**DockerHub:** '${DOCKERHUB_LINK}'\\n"}],\
-                 "username": "Jenkins"}' ${BUILDS_DISCORD} '''
-          }
-          else{
-          sh ''' curl -X POST -H "Content-Type: application/json" --data '{"avatar_url": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jenkins-avatar.png","embeds": [{"color": 16711680,\
-                 "footer": {"text" : "Live Build"},\
-                 "timestamp": "'${JOB_DATE}'",\
-                 "description": "**Build:**  '${BUILD_NUMBER}'\\n**CI Results:**  '${CI_URL}'\\n**ShellCheck Results:**  '${SHELLCHECK_URL}'\\n**Status:**  failure\\n**Job:** '${RUN_DISPLAY_URL}'\\n**Change:** '${CODE_URL}'\\n**External Release:**: '${RELEASE_LINK}'\\n**DockerHub:** '${DOCKERHUB_LINK}'\\n"}],\
-                 "username": "Jenkins"}' ${BUILDS_DISCORD} '''
-          }
         }
       }
     }
