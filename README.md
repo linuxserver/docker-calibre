@@ -221,6 +221,7 @@ services:
       - CLI_ARGS= #optional
     volumes:
       - /path/to/calibre/config:/config
+      - /path/to/calibre/library:/books
     ports:
       - 8080:8080
       - 8181:8181
