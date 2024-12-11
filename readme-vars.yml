@@ -7,81 +7,135 @@ project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/ma
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb_optional_extras_enabled: false
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-<version tag>"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-<version tag>"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-<version tag>"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-<version tag>"}
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Latest Calibre releases" }
-  - { tag: "v4", desc: "Calibre v4 releases (x86_64 only)" }
-
+  - {tag: "latest", desc: "Latest Calibre releases"}
+  - {tag: "v4", desc: "Calibre v4 releases (x86_64 only)"}
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Where calibre should store its database and library." }
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Where calibre should store its database and library."}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8080", internal_port: "8080", port_desc: "Calibre desktop gui." }
-  - { external_port: "8181", internal_port: "8181", port_desc: "Calibre desktop gui HTTPS." }
-  - { external_port: "8081", internal_port: "8081", port_desc: "Calibre webserver gui." }
+  - {external_port: "8080", internal_port: "8080", port_desc: "Calibre desktop gui."}
+  - {external_port: "8181", internal_port: "8181", port_desc: "Calibre desktop gui HTTPS."}
+  - {external_port: "8081", internal_port: "8081", port_desc: "Calibre webserver gui."}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "PASSWORD", env_value: "", desc: "Optionally set a password for the gui." }
-  - { env_var: "CLI_ARGS", env_value: "", desc: "Optionally pass cli start arguments to calibre."}
+  - {env_var: "PASSWORD", env_value: "", desc: "Optionally set a password for the gui."}
+  - {env_var: "CLI_ARGS", env_value: "", desc: "Optionally pass cli start arguments to calibre."}
 opt_security_opt_param: true
 opt_security_opt_param_vars:
-  - { run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker." }
-
+  - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker."}
 # Kasm blurb settings
 kasm_blurb: true
 show_nvidia: true
 external_http_port: "8080"
 external_https_port: "8181"
 noto_fonts: "fonts-noto-cjk"
-
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   The application can be accessed at:
-  
+
   * http://yourhost:8080/
   * https://yourhost:8181/
-
+# init diagram
+init_diagram: |
+  "calibre:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-kasmvnc-end -> init-calibre-config
+    init-kasmvnc-end -> init-config
+    init-os-end -> init-config
+    init-calibre-config -> init-config-end
+    init-config -> init-config-end
+    init-crontab-config -> init-config-end
+    init-config -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    init-os-end -> init-kasmvnc
+    init-nginx -> init-kasmvnc-config
+    init-video -> init-kasmvnc-end
+    base -> init-migrations
+    init-config-end -> init-mods
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    init-kasmvnc -> init-nginx
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-custom-files -> init-services
+    init-kasmvnc-config -> init-video
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-de
+    svc-nginx -> svc-de
+    svc-de -> legacy-services
+    init-services -> svc-docker
+    svc-de -> svc-docker
+    svc-docker -> legacy-services
+    init-services -> svc-kasmvnc
+    svc-pulseaudio -> svc-kasmvnc
+    svc-kasmvnc -> legacy-services
+    init-services -> svc-kclient
+    svc-kasmvnc -> svc-kclient
+    svc-kclient -> legacy-services
+    init-services -> svc-nginx
+    svc-kclient -> svc-nginx
+    svc-nginx -> legacy-services
+    init-services -> svc-pulseaudio
+    svc-pulseaudio -> legacy-services
+  }
+  Base Images: {
+    "baseimage-kasmvnc:ubuntunoble" <- "baseimage-ubuntu:noble"
+  }
+  "calibre:latest" <- Base Images
 # changelog
 changelogs:
-  - { date: "19.08.24:", desc: "Rebase to noble." }
-  - { date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon." }
-  - { date: "31.01.24:", desc: "Fix fullscreen on start." }
-  - { date: "17.11.23:", desc: "Install libxcb-cursor0 for v7 support." }
-  - { date: "18.03.23:", desc: "Rebase to KasmVNC base image." }
-  - { date: "19.10.22:", desc: "Set the window title to `Calibre`. Remove websocat as it is now handled properly in the baseimage." }
-  - { date: "18.10.22:", desc: "Deprecate Arch branch." }
-  - { date: "07.10.22:", desc: "Start calibre window maximized." }
-  - { date: "16.09.22:", desc: "Rebase to jammy." }
-  - { date: "24.07.22:", desc: "Add arm64 build for master branch." }
-  - { date: "11.07.22:", desc: "Update dependencies for Calibre 6." }
-  - { date: "28.05.22:", desc: "Rebase to focal." }
-  - { date: "31.03.22:", desc: "Fix umask." }
-  - { date: "28.02.22:", desc: "Add speech support to bionic image." }
-  - { date: "05.01.22:", desc: "Add arch branch for arm platforms." }
-  - { date: "20.04.21:", desc: "Fix the HOME folder." }
-  - { date: "19.04.21:", desc: "Add libnss3 back in. Make sure Calibre can access environment variables." }
-  - { date: "18.04.21:", desc: "Start calibre on container start rather than gui connect." }
-  - { date: "15.04.21:", desc: "Rebase to rdesktop-web baseimage. Deprecate `GUAC_USER` and `GUAC_PASS` env vars. Existing users can set the new var `PASSWORD` for the user `abc`." }
-  - { date: "25.09.20:", desc: "Switch to python3, add various new dependencies for calibre 5.0." }
-  - { date: "10.05.19:", desc: "Add new env var `CLI_ARGS` to pass start arguments to calibre." }
-  - { date: "18.03.19:", desc: "Let Calibre access environment variables, add optional umask setting." }
-  - { date: "23.10.19:", desc: "Remove reccomended deps and zenity for character compatibility." }
-  - { date: "18.10.19:", desc: "Add python-xdg." }
-  - { date: "08.10.19:", desc: "Add fonts-wqy-microhei ttf-wqy-zenhei fcitx-rime dependency to resolve issue with Chinese encoding." }
-  - { date: "04.10.19:", desc: "Add libxkbcommon-x11-0 dependency to resolve issue with Calibre 4." }
-  - { date: "08.08.19:", desc: "Add zenity for international character support in dialog boxes." }
-  - { date: "12.07.19:", desc: "Download binary from calibre website instead of github." }
-  - { date: "29.04.19:", desc: "Initial release." }
+  - {date: "19.08.24:", desc: "Rebase to noble."}
+  - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
+  - {date: "31.01.24:", desc: "Fix fullscreen on start."}
+  - {date: "17.11.23:", desc: "Install libxcb-cursor0 for v7 support."}
+  - {date: "18.03.23:", desc: "Rebase to KasmVNC base image."}
+  - {date: "19.10.22:", desc: "Set the window title to `Calibre`. Remove websocat as it is now handled properly in the baseimage."}
+  - {date: "18.10.22:", desc: "Deprecate Arch branch."}
+  - {date: "07.10.22:", desc: "Start calibre window maximized."}
+  - {date: "16.09.22:", desc: "Rebase to jammy."}
+  - {date: "24.07.22:", desc: "Add arm64 build for master branch."}
+  - {date: "11.07.22:", desc: "Update dependencies for Calibre 6."}
+  - {date: "28.05.22:", desc: "Rebase to focal."}
+  - {date: "31.03.22:", desc: "Fix umask."}
+  - {date: "28.02.22:", desc: "Add speech support to bionic image."}
+  - {date: "05.01.22:", desc: "Add arch branch for arm platforms."}
+  - {date: "20.04.21:", desc: "Fix the HOME folder."}
+  - {date: "19.04.21:", desc: "Add libnss3 back in. Make sure Calibre can access environment variables."}
+  - {date: "18.04.21:", desc: "Start calibre on container start rather than gui connect."}
+  - {date: "15.04.21:", desc: "Rebase to rdesktop-web baseimage. Deprecate `GUAC_USER` and `GUAC_PASS` env vars. Existing users can set the new var `PASSWORD` for the user `abc`."}
+  - {date: "25.09.20:", desc: "Switch to python3, add various new dependencies for calibre 5.0."}
+  - {date: "10.05.19:", desc: "Add new env var `CLI_ARGS` to pass start arguments to calibre."}
+  - {date: "18.03.19:", desc: "Let Calibre access environment variables, add optional umask setting."}
+  - {date: "23.10.19:", desc: "Remove reccomended deps and zenity for character compatibility."}
+  - {date: "18.10.19:", desc: "Add python-xdg."}
+  - {date: "08.10.19:", desc: "Add fonts-wqy-microhei ttf-wqy-zenhei fcitx-rime dependency to resolve issue with Chinese encoding."}
+  - {date: "04.10.19:", desc: "Add libxkbcommon-x11-0 dependency to resolve issue with Calibre 4."}
+  - {date: "08.08.19:", desc: "Add zenity for international character support in dialog boxes."}
+  - {date: "12.07.19:", desc: "Download binary from calibre website instead of github."}
+  - {date: "29.04.19:", desc: "Initial release."}
