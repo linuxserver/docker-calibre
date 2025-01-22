@@ -6,6 +6,7 @@ project_url: "https://calibre-ebook.com/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-logo.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Books"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
