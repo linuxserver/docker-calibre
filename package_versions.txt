@@ -1167,7 +1167,7 @@ pulseaudio2                                                                   0.
 pygobject                                                                     3.48.2                                  python                      
 pyjwt                                                                         2.7.0                                   python                      
 pyparsing                                                                     3.1.1                                   python                      
-python                                                                        3.11.5                                  binary                      
+python                                                                        3.11.12                                 binary                      
 python-apt                                                                    2.7.7+ubuntu4                           python                      
 python-apt-common                                                             2.7.7ubuntu4                            deb                         
 python3                                                                       3.12.3-0ubuntu2                         deb                         
