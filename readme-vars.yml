@@ -25,9 +25,9 @@ param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Where calibre should store its database and library."}
 param_usage_include_ports: true
 param_ports:
-  - {external_port: "8080", internal_port: "8080", port_desc: "Calibre desktop gui."}
+  - {external_port: "8080", internal_port: "8080", port_desc: "Calibre desktop gui (only for reverse proxy access)."}
   - {external_port: "8181", internal_port: "8181", port_desc: "Calibre desktop gui HTTPS."}
-  - {external_port: "8081", internal_port: "8081", port_desc: "Calibre webserver gui."}
+  - {external_port: "8081", internal_port: "8081", port_desc: "Calibre webserver gui (needs to be enabled in gui settings first)."}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
@@ -37,7 +37,7 @@ opt_security_opt_param: true
 opt_security_opt_param_vars:
   - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker."}
 # Kasm blurb settings
-kasm_blurb: true
+selkies_blurb: true
 show_nvidia: true
 external_http_port: "8080"
 external_https_port: "8181"
@@ -47,8 +47,12 @@ app_setup_block_enabled: true
 app_setup_block: |
   The application can be accessed at:
 
-  * http://yourhost:8080/
   * https://yourhost:8181/
+
+  In the wizard, make sure to select the default library location `/config/Calibre Library` as the path for books. We will not provide support if you use a different path.
+
+  Calibre's built-in webserver is not enabled by default. If you wish to use it, please enable it in Calibre Preferences under `Sharing over the net`. Make sure to leave the port setting as `8081` and check the box to start it automatically.
+
 # init diagram
 init_diagram: |
   "calibre:latest": {
@@ -111,6 +115,7 @@ init_diagram: |
   "calibre:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "26.07.25:", desc: "Rebase to selkies. Breaking Change: HTTPS is now required. Either use a reverse proxy with SSL cert or direct connect to port 8181 with HTTPS."}
   - {date: "19.08.24:", desc: "Rebase to noble."}
   - {date: "10.02.24:", desc: "Update Readme with new env vars and ingest proper PWA icon."}
   - {date: "31.01.24:", desc: "Fix fullscreen on start."}
