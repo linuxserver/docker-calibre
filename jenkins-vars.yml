@@ -28,3 +28,4 @@ repo_vars:
   - CI_DOCKERENV = ''
   - CI_AUTH = ''
   - CI_WEBPATH = ''
+  - CI_WEB_SCREENSHOT_DELAY = '30'
