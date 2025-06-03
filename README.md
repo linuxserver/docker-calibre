@@ -73,6 +73,11 @@ The application can be accessed at:
 * http://yourhost:8080/
 * https://yourhost:8181/
 
+### Strict reverse proxies
+
+This image uses a self-signed certificate by default. This naturally means the scheme is `https`.
+If you are using a reverse proxy which validates certificates, you need to [disable this check for the container](https://docs.linuxserver.io/faq#strict-proxy).
+
 **Modern GUI desktop apps have issues with the latest Docker and syscall compatibility, you can use Docker with the `--security-opt seccomp=unconfined` setting to allow these syscalls on hosts with older Kernels or libseccomp**
 
 ### Security
