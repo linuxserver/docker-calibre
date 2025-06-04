@@ -780,8 +780,8 @@ libiec61883-0                                                                 1.
 libigdgmm12                                                                   22.3.17+ds1-1                           deb                         
 libijs-0.35                                                                   0.35-15.1build1                         deb                         
 libimlib2t64                                                                  1.12.1-1.1build2                        deb                         
-libinput-bin                                                                  1.25.0-1ubuntu3                         deb                         
-libinput10                                                                    1.25.0-1ubuntu3                         deb                         
+libinput-bin                                                                  1.25.0-1ubuntu3.1                       deb                         
+libinput10                                                                    1.25.0-1ubuntu3.1                       deb                         
 libip4tc2                                                                     1.8.10-3ubuntu2                         deb                         
 libip6tc2                                                                     1.8.10-3ubuntu2                         deb                         
 libisl23                                                                      0.26-3build1.1                          deb                         
