@@ -21,6 +21,7 @@ RUN \
   curl -o \
     /usr/share/selkies/www/icon.png \
     https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-icon.png && \
+  cp /usr/share/selkies/www/icon.png /usr/share/selkies/www/favicon.ico && \
   echo "**** install runtime packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
