@@ -14,7 +14,8 @@ ENV \
   CUSTOM_HTTPS_PORT="8181" \
   HOME="/config" \
   TITLE="Calibre" \
-  QTWEBENGINE_DISABLE_SANDBOX="1"
+  QTWEBENGINE_DISABLE_SANDBOX="1" \
+  NO_GAMEPAD=true
 
 RUN \
   echo "**** add icon ****" && \
