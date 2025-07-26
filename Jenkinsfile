@@ -33,12 +33,13 @@ pipeline {
     MULTIARCH = 'true'
     CI = 'true'
     CI_WEB = 'true'
-    CI_PORT = '8080'
-    CI_SSL = 'false'
+    CI_PORT = '8181'
+    CI_SSL = 'true'
     CI_DELAY = '120'
     CI_DOCKERENV = ''
     CI_AUTH = ''
     CI_WEBPATH = ''
+    CI_WEB_SCREENSHOT_DELAY = '30'
   }
   stages {
     stage("Set git config"){
@@ -890,6 +891,7 @@ pipeline {
                 --shm-size=1gb \
                 -v /var/run/docker.sock:/var/run/docker.sock \
                 -e IMAGE=\"${IMAGE}\" \
+                -e WEB_SCREENSHOT_DELAY=\"${CI_WEB_SCREENSHOT_DELAY}\" \
                 -e DOCKER_LOGS_TIMEOUT=\"${CI_DELAY}\" \
                 -e TAGS=\"${CI_TAGS}\" \
                 -e META_TAG=\"${META_TAG}\" \
