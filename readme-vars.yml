@@ -36,12 +36,10 @@ opt_param_env_vars:
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker."}
-# Kasm blurb settings
+# Selkies blurb settings
 selkies_blurb: true
-show_nvidia: true
 external_http_port: "8080"
 external_https_port: "8181"
-noto_fonts: "fonts-noto-cjk"
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |

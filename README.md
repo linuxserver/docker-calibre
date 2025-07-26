@@ -156,41 +156,6 @@ The `DRINODE` environment variable can be used to point to a specific GPU.
 
 DRI3 will work on aarch64 given the correct drivers are installed inside the container for your chipset.
 
-### Nvidia GPU Support
-
-**Note: Nvidia support is not available for Alpine-based images.**
-
-Nvidia GPU support is available by leveraging Zink for OpenGL. When a compatible Nvidia GPU is passed through, it will also be **automatically utilized for hardware-accelerated video stream encoding** (using the `x264enc` full-frame profile), significantly reducing CPU load.
-
-Enable Nvidia support with the following runtime flags:
-
-| Flag | Description |
-| :----: | --- |
-| `--gpus all` | Passes all available host GPUs to the container. This can be filtered to specific GPUs. |
-| `--runtime nvidia` | Specifies the Nvidia runtime, which provides the necessary drivers and tools from the host. |
-
-For Docker Compose, you must first configure the Nvidia runtime as the default on the host:
-
-```
-sudo nvidia-ctk runtime configure --runtime=docker --set-as-default
-sudo systemctl restart docker
-```
-
-Then, assign the GPU to the service in your `compose.yaml`:
-
-```
-services:
-  calibre:
-    image: lscr.io/linuxserver/calibre:latest
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [compute,video,graphics,utility]
-```
-
 ### Application Management
 
 There are two methods for installing applications inside the container: PRoot Apps (recommended for persistence) and Native Apps.
