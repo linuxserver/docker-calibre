@@ -823,7 +823,7 @@ libpixman-1-0                                                                 0.
 libpng16-16t64                                                                1.6.43-5build1                             deb                         
 libpolkit-agent-1-0                                                           124-2ubuntu1.24.04.2                       deb                         
 libpolkit-gobject-1-0                                                         124-2ubuntu1.24.04.2                       deb                         
-libpoppler134                                                                 24.02.0-1ubuntu9.5                         deb                         
+libpoppler134                                                                 24.02.0-1ubuntu9.6                         deb                         
 libpresage-data                                                               0.9.1-2.6ubuntu2                           deb                         
 libpresage1v5                                                                 0.9.1-2.6ubuntu2                           deb                         
 libproc2-0                                                                    2:4.0.4-4ubuntu3.2                         deb                         
@@ -831,8 +831,8 @@ libproxy1v5                                                                   0.
 libpsl5t64                                                                    0.21.2-1.1build1                           deb                         
 libpulse0                                                                     1:16.1+dfsg1-2ubuntu10.1                   deb                         
 libpython3-stdlib                                                             3.12.3-0ubuntu2                            deb                         
-libpython3.12-minimal                                                         3.12.3-1ubuntu0.7                          deb                         
-libpython3.12-stdlib                                                          3.12.3-1ubuntu0.7                          deb                         
+libpython3.12-minimal                                                         3.12.3-1ubuntu0.8                          deb                         
+libpython3.12-stdlib                                                          3.12.3-1ubuntu0.8                          deb                         
 libqpdf29t64                                                                  11.9.0-1.1build1                           deb                         
 libqt5core5t64                                                                5.15.13+dfsg-1ubuntu1                      deb                         
 libqt5dbus5t64                                                                5.15.13+dfsg-1ubuntu1                      deb                         
@@ -892,7 +892,7 @@ libtext-iconv-perl                                                            1.
 libthai-data                                                                  0.1.29-2build1                             deb                         
 libthai0                                                                      0.1.29-2build1                             deb                         
 libtheora0                                                                    1.1.1+dfsg.1-16.1build3                    deb                         
-libtiff6                                                                      4.5.1+git230720-4ubuntu2.2                 deb                         
+libtiff6                                                                      4.5.1+git230720-4ubuntu2.3                 deb                         
 libtinfo6                                                                     6.4+20240113-1ubuntu2                      deb                         
 libtinyxml2.6.2v5                                                             2.6.2-6.1                                  deb                         
 libtsan2                                                                      14.2.0-4ubuntu2~24.04                      deb                         
@@ -970,7 +970,7 @@ libxinerama1                                                                  2:
 libxkbcommon-x11-0                                                            1.6.0-1build1                              deb                         
 libxkbcommon0                                                                 1.6.0-1build1                              deb                         
 libxkbfile1                                                                   1:1.1.0-1build4                            deb                         
-libxml2                                                                       2.9.14+dfsg-1.3ubuntu3.3                   deb                         
+libxml2                                                                       2.9.14+dfsg-1.3ubuntu3.4                   deb                         
 libxmlb2                                                                      0.3.18-1                                   deb                         
 libxmu6                                                                       2:1.1.3-3build2                            deb                         
 libxmuu1                                                                      2:1.1.3-3build2                            deb                         
@@ -1040,7 +1040,7 @@ pixelflux                                                                     1.
 platformdirs                                                                  4.2.2                                      python                      
 polkitd                                                                       124-2ubuntu1.24.04.2                       deb                         
 poppler-data                                                                  0.4.12-1                                   deb                         
-poppler-utils                                                                 24.02.0-1ubuntu9.5                         deb                         
+poppler-utils                                                                 24.02.0-1ubuntu9.6                         deb                         
 procps                                                                        2:4.0.4-4ubuntu3.2                         deb                         
 prometheus-client                                                             0.22.1                                     python                      
 propcache                                                                     0.3.2                                      python                      
@@ -1085,9 +1085,9 @@ python3-software-properties                                                   0.
 python3-venv                                                                  3.12.3-0ubuntu2                            deb                         
 python3-wadllib                                                               1.3.6-5                                    deb                         
 python3-xdg                                                                   0.28-2                                     deb                         
-python3.12                                                                    3.12.3-1ubuntu0.7                          deb                         
-python3.12-minimal                                                            3.12.3-1ubuntu0.7                          deb                         
-python3.12-venv                                                               3.12.3-1ubuntu0.7                          deb                         
+python3.12                                                                    3.12.3-1ubuntu0.8                          deb                         
+python3.12-minimal                                                            3.12.3-1ubuntu0.8                          deb                         
+python3.12-venv                                                               3.12.3-1ubuntu0.8                          deb                         
 pyxdg                                                                         0.28                                       python                      
 readline-common                                                               8.2-4build1                                deb                         
 resenje.org/singleflight                                                      v0.4.3                                     go-module                   
