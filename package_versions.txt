@@ -48,6 +48,7 @@ cpp-x86-64-linux-gnu                                                          4:
 cron                                                                          3.0pl1-184ubuntu2                          deb                         
 cron-daemon-common                                                            3.0pl1-184ubuntu2                          deb                         
 cryptography                                                                  41.0.7                                     python     (+1 duplicate)   
+cryptography                                                                  45.0.7                                     python                      
 curl                                                                          8.5.0-2ubuntu10.6                          deb                         
 dario.cat/mergo                                                               v1.0.0                                     go-module                   
 dario.cat/mergo                                                               v1.0.1                                     go-module                   
@@ -632,7 +633,7 @@ libcrypt1                                                                     1:
 libcryptsetup12                                                               2:2.7.0-1ubuntu4.2                         deb                         
 libctf-nobfd0                                                                 2.42-4ubuntu2.5                            deb                         
 libctf0                                                                       2.42-4ubuntu2.5                            deb                         
-libcups2t64                                                                   2.4.7-1.2ubuntu7.3                         deb                         
+libcups2t64                                                                   2.4.7-1.2ubuntu7.4                         deb                         
 libcurl3t64-gnutls                                                            8.5.0-2ubuntu10.6                          deb                         
 libcurl4t64                                                                   8.5.0-2ubuntu10.6                          deb                         
 libdatrie1                                                                    0.2.13-3build1                             deb                         
@@ -1042,7 +1043,7 @@ perl-modules-5.38                                                             5.
 pillow                                                                        11.3.0                                     python                      
 pinentry-curses                                                               1.2.1-3ubuntu5                             deb                         
 pip                                                                           24.0                                       python                      
-pixelflux                                                                     1.3.3                                      python                      
+pixelflux                                                                     1.4.0                                      python                      
 platformdirs                                                                  4.2.2                                      python                      
 polkitd                                                                       124-2ubuntu1.24.04.2                       deb                         
 poppler-data                                                                  0.4.12-1                                   deb                         
@@ -1062,7 +1063,7 @@ pygobject                                                                     3.
 pyjwt                                                                         2.7.0                                      python                      
 pylibsrtp                                                                     0.12.0                                     python                      
 pynput                                                                        1.8.1                                      python                      
-pyopenssl                                                                     25.1.0                                     python                      
+pyopenssl                                                                     25.2.0                                     python                      
 pyparsing                                                                     3.1.1                                      python                      
 python                                                                        3.11.12                                    binary                      
 python-apt                                                                    2.7.7+ubuntu5                              python                      
