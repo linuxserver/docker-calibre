@@ -1065,7 +1065,7 @@ pylibsrtp                                                                     0.
 pynput                                                                        1.8.1                                   python                      
 pyopenssl                                                                     25.3.0                                  python                      
 pyparsing                                                                     3.1.1                                   python                      
-python                                                                        3.11.12                                 binary                      
+python                                                                        3.11.13                                 binary                      
 python-apt                                                                    2.7.7+ubuntu5                           python                      
 python-apt-common                                                             2.7.7ubuntu5                            deb                         
 python-xlib                                                                   0.33                                    python                      
