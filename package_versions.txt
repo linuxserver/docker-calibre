@@ -48,7 +48,7 @@ cpp-x86-64-linux-gnu                                                          4:
 cron                                                                          3.0pl1-184ubuntu2                       deb                         
 cron-daemon-common                                                            3.0pl1-184ubuntu2                       deb                         
 cryptography                                                                  41.0.7                                  python     (+1 duplicate)   
-cryptography                                                                  46.0.2                                  python                      
+cryptography                                                                  46.0.3                                  python                      
 curl                                                                          8.5.0-2ubuntu10.6                       deb                         
 dario.cat/mergo                                                               v1.0.0                                  go-module                   
 dario.cat/mergo                                                               v1.0.2                                  go-module                   
@@ -1038,10 +1038,10 @@ pcmflux                                                                       1.
 perl                                                                          5.38.2-3.2ubuntu0.2                     deb                         
 perl-base                                                                     5.38.2-3.2ubuntu0.2                     deb                         
 perl-modules-5.38                                                             5.38.2-3.2ubuntu0.2                     deb                         
-pillow                                                                        11.3.0                                  python                      
+pillow                                                                        12.0.0                                  python                      
 pinentry-curses                                                               1.2.1-3ubuntu5                          deb                         
 pip                                                                           24.0                                    python                      
-pixelflux                                                                     1.4.4                                   python                      
+pixelflux                                                                     1.4.5                                   python                      
 platformdirs                                                                  4.2.2                                   python                      
 polkitd                                                                       124-2ubuntu1.24.04.2                    deb                         
 poppler-data                                                                  0.4.12-1                                deb                         
@@ -1063,7 +1063,7 @@ pylibsrtp                                                                     1.
 pynput                                                                        1.8.1                                   python                      
 pyopenssl                                                                     25.3.0                                  python                      
 pyparsing                                                                     3.1.1                                   python                      
-python                                                                        3.11.13                                 binary                      
+python                                                                        3.11.14                                 binary                      
 python-apt                                                                    2.7.7+ubuntu5                           python                      
 python-apt-common                                                             2.7.7ubuntu5                            deb                         
 python-xlib                                                                   0.33                                    python                      
