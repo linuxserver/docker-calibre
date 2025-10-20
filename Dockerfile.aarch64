@@ -52,13 +52,15 @@ RUN \
     /opt/calibre && \
   if [ -z ${CALIBRE_RELEASE+x} ]; then \
     CALIBRE_RELEASE=$(curl -sX GET "https://api.github.com/repos/kovidgoyal/calibre/releases/latest" \
-    | jq -r .tag_name); \
+      | jq -r .tag_name); \
   fi && \
   CALIBRE_VERSION="$(echo ${CALIBRE_RELEASE} | cut -c2-)" && \
   CALIBRE_URL="https://download.calibre-ebook.com/${CALIBRE_VERSION}/calibre-${CALIBRE_VERSION}-arm64.txz" && \
-  curl -o \
-    /tmp/calibre-tarball.txz -L \
-    "$CALIBRE_URL" && \
+  if ! curl -fo /tmp/calibre-tarball.txz -L "https://github.com/kovidgoyal/calibre/releases/download/v${CALIBRE_VERSION}/calibre-${CALIBRE_VERSION}-arm64.txz"; then \
+    curl -fo \
+      /tmp/calibre-tarball.txz -L \
+      "$CALIBRE_URL"; \
+  fi && \
   tar xvf /tmp/calibre-tarball.txz -C \
     /opt/calibre && \
   /opt/calibre/calibre_postinstall && \
