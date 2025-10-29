@@ -73,7 +73,7 @@ dnspython                                                                     2.
 docker-buildx-plugin                                                          0.29.1-1~ubuntu.24.04~noble             deb                         
 docker-ce                                                                     5:28.5.1-1~ubuntu.24.04~noble           deb                         
 docker-ce-cli                                                                 5:28.5.1-1~ubuntu.24.04~noble           deb                         
-docker-compose-plugin                                                         2.40.1-1~ubuntu.24.04~noble             deb                         
+docker-compose-plugin                                                         2.40.2-1~ubuntu.24.04~noble             deb                         
 dpkg                                                                          1.22.6ubuntu6.5                         deb                         
 dunst                                                                         1.9.2-1build2                           deb                         
 e2fsprogs                                                                     1.47.0-2.4~exp1ubuntu4.1                deb                         
@@ -210,7 +210,7 @@ github.com/docker/cli                                                         v2
 github.com/docker/cli                                                         v28.5.1+incompatible                    go-module                   
 github.com/docker/cli-docs-tool                                               v0.10.0                                 go-module  (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                   
-github.com/docker/compose/v2                                                  v0.0.0-20251017130737-be8c7e6c60c6      go-module                   
+github.com/docker/compose/v2                                                  v0.0.0-20251022173216-6007d4c7e7b7      go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v28.4.0+incompatible                    go-module                   
 github.com/docker/docker                                                      v28.5.1                                 go-module  (+1 duplicate)   
@@ -994,7 +994,7 @@ libyaml-cpp0.8                                                                0.
 libzstd1                                                                      1.5.5+dfsg2-2build1.1                   deb                         
 libzvbi-common                                                                0.2.42-2                                deb                         
 libzvbi0t64                                                                   0.2.42-2                                deb                         
-linux-libc-dev                                                                6.8.0-85.85                             deb                         
+linux-libc-dev                                                                6.8.0-86.87                             deb                         
 locales                                                                       2.39-0ubuntu8.6                         deb                         
 locales-all                                                                   2.39-0ubuntu8.6                         deb                         
 login                                                                         1:4.13+dfsg1-4ubuntu3.2                 deb                         
@@ -1046,7 +1046,7 @@ procps                                                                        2:
 prometheus-client                                                             0.23.1                                  python                      
 propcache                                                                     0.4.1                                   python                      
 psmisc                                                                        23.7-1build1                            deb                         
-psutil                                                                        7.1.1                                   python                      
+psutil                                                                        7.1.2                                   python                      
 publicsuffix                                                                  20231001.0357-0.1                       deb                         
 pulseaudio                                                                    1:16.1+dfsg1-2ubuntu10.1                deb                         
 pulseaudio-utils                                                              1:16.1+dfsg1-2ubuntu10.1                deb                         
