@@ -36,6 +36,8 @@ opt_param_env_vars:
 opt_security_opt_param: true
 opt_security_opt_param_vars:
   - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function as syscalls are unkown to Docker."}
+custom_params:
+  - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "Recommended for all desktop images."}
 # Selkies blurb settings
 selkies_blurb: true
 external_http_port: "8080"
