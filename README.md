@@ -101,6 +101,7 @@ This container is based on [Docker Baseimage Selkies](https://github.com/linuxse
 
 | Variable | Description |
 | :----: | --- |
+| PIXELFLUX_WAYLAND | **Experimental** If set to true the container will initialize in Wayland mode running [Smithay](https://github.com/Smithay/smithay) and Labwc while enabling zero copy encoding with a GPU |
 | CUSTOM_PORT | Internal port the container listens on for http if it needs to be swapped from the default `8080` |
 | CUSTOM_HTTPS_PORT | Internal port the container listens on for https if it needs to be swapped from the default `8181` |
 | CUSTOM_WS_PORT | Internal port the container listens on for websockets if it needs to be swapped from the default 8082 |
@@ -154,6 +155,30 @@ To launch the desktop session in a different language, set the `LC_ALL` environm
 *   `-e LC_ALL=fr_FR.UTF-8` - French
 *   `-e LC_ALL=nl_NL.UTF-8` - Netherlands
 *   `-e LC_ALL=it_IT.UTF-8` - Italian
+
+### SealSkin Compatibility
+
+This container is compatible with [SealSkin](https://github.com/linuxserver/docker-sealskin).
+
+SealSkin is a self-hosted, client-server platform that provides secure authentication and collaboration features while using a browser extension to intercept user actions such as clicking a link or downloading a file and redirect them to a secure, isolated application environment running on a remote server.
+
+*   **SealSkin Server:** [Get it Here](https://github.com/linuxserver/docker-sealskin)
+*   **Browser Extension:** [Install Here](https://chromewebstore.google.com/detail/sealskin-isolation/lclgfmnljgacfdpmmmjmfpdelndbbfhk)
+
+### All GPU Acceleration - use sane resolutions
+
+When using 3d acceleration via Nvidia DRM or DRI3 it is important to clamp the virtual display to a reasonable max resolution. This can be achieved with the environment setting: 
+
+* `-e MAX_RESOLUTION=3840x2160`
+
+This will set the total virtual framebuffer to 4K, you can also set a manual resolution to achieve this.
+By default the virtual monitor in the session is 16K to support large monitors and dual display configurations. Leaving it this large has no impact on CPU based performance but costs GPU memory usage and memory bandwidth when leveraging one for acceleration. If you have performance issues in an accelerated session, try clamping the resolution to 1080p and work up from there:
+
+```
+-e SELKIES_MANUAL_WIDTH=1920
+-e SELKIES_MANUAL_HEIGHT=1080
+-e MAX_RESOLUTION=1920x1080
+```
 
 ### DRI3 GPU Acceleration
 
@@ -557,6 +582,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.12.25:** - Add Wayland init logic.
 * **26.07.25:** - Rebase to selkies. Breaking Change: HTTPS is now required. Either use a reverse proxy with SSL cert or direct connect to port 8181 with HTTPS.
 * **19.08.24:** - Rebase to noble.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
