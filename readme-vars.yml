@@ -126,6 +126,7 @@ init_diagram: |
   "calibre:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "03.04.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "26.07.25:", desc: "Rebase to selkies. Breaking Change: HTTPS is now required. Either use a reverse proxy with SSL cert or direct connect to port 8181 with HTTPS."}
   - {date: "19.08.24:", desc: "Rebase to noble."}
