@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-selkies:ubuntunoble
+FROM ghcr.io/linuxserver/baseimage-selkies:ubunturesolute
 
 # set version label
 ARG BUILD_DATE
@@ -31,7 +31,7 @@ RUN \
     fonts-wqy-microhei \
     libnss3 \
     libopengl0 \
-    libqpdf29t64 \
+    libqpdf30 \
     libxkbcommon-x11-0 \
     libxcb-cursor0 \
     libxcb-icccm4 \
