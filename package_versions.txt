@@ -3,7 +3,7 @@ adduser                                                                       3.
 adwaita-icon-theme                                                            46.0-1                                 deb                         
 aiofiles                                                                      25.1.0                                 python                      
 aiohappyeyeballs                                                              2.6.2                                  python                      
-aiohttp                                                                       3.13.5                                 python                      
+aiohttp                                                                       3.14.0                                 python                      
 aioice                                                                        0.10.2                                 python                      
 aiosignal                                                                     1.4.0                                  python                      
 apt                                                                           2.8.3                                  deb                         
@@ -72,7 +72,7 @@ dirmngr                                                                       2.
 distro                                                                        1.9.0                                  python                      
 distro-info-data                                                              0.60ubuntu0.6                          deb                         
 dnspython                                                                     2.8.0                                  python                      
-docker-buildx-plugin                                                          0.34.0-1~ubuntu.24.04~noble            deb                         
+docker-buildx-plugin                                                          0.34.1-1~ubuntu.24.04~noble            deb                         
 docker-ce                                                                     5:29.5.2-1~ubuntu.24.04~noble          deb                         
 docker-ce-cli                                                                 5:29.5.2-1~ubuntu.24.04~noble          deb                         
 docker-compose-plugin                                                         5.1.4-1~ubuntu.24.04~noble             deb                         
@@ -216,7 +216,7 @@ github.com/digitorus/timestamp                                                v0
 github.com/dimchansky/utfbom                                                  v1.1.1                                 go-module                   
 github.com/distribution/reference                                             v0.6.0                                 go-module  (+4 duplicates)  
 github.com/docker/buildx                                                      v0.33.0                                go-module                   
-github.com/docker/buildx                                                      v0.34.0                                go-module                   
+github.com/docker/buildx                                                      v0.34.1                                go-module                   
 github.com/docker/cli                                                         v29.4.3+incompatible                   go-module                   
 github.com/docker/cli                                                         v29.5.1+incompatible                   go-module                   
 github.com/docker/cli-docs-tool                                               v0.11.0                                go-module                   
@@ -596,7 +596,7 @@ hostname                                                                      3.
 httplib2                                                                      0.20.4                                 python                      
 humanity-icon-theme                                                           0.6.16                                 deb                         
 hunspell-en-us                                                                1:2020.12.07-2                         deb                         
-idna                                                                          3.16                                   python                      
+idna                                                                          3.17                                   python                      
 ifaddr                                                                        0.2.0                                  python                      
 importlib-metadata                                                            8.7.1                                  python                      
 init-system-helpers                                                           1.66ubuntu1                            deb                         
@@ -632,7 +632,7 @@ libacl1                                                                       2.
 libao-common                                                                  1.2.2+20180113-1.1ubuntu4              deb                         
 libao4                                                                        1.2.2+20180113-1.1ubuntu4              deb                         
 libaom3                                                                       3.8.2-2ubuntu0.1                       deb                         
-libapparmor1                                                                  4.0.1really4.0.1-0ubuntu0.24.04.6      deb                         
+libapparmor1                                                                  4.0.1really4.0.1-0ubuntu0.24.04.7      deb                         
 libappstream5                                                                 1.0.2-1build6                          deb                         
 libapt-pkg6.0t64                                                              2.8.3                                  deb                         
 libarchive13t64                                                               3.7.2-2ubuntu0.7                       deb                         
@@ -735,7 +735,7 @@ libfuse3-3                                                                    3.
 libgbm1                                                                       25.2.8-0ubuntu0.24.04.1                deb                         
 libgcc-13-dev                                                                 13.3.0-6ubuntu2~24.04.1                deb                         
 libgcc-s1                                                                     14.2.0-4ubuntu2~24.04.1                deb                         
-libgcrypt20                                                                   1.10.3-2build1                         deb                         
+libgcrypt20                                                                   1.10.3-2ubuntu0.1                      deb                         
 libgdbm-compat4t64                                                            1.23-5.1build1                         deb                         
 libgdbm6t64                                                                   1.23-5.1build1                         deb                         
 libgdk-pixbuf-2.0-0                                                           2.42.10+dfsg-3ubuntu3.3                deb                         
@@ -821,7 +821,7 @@ liblocale-gettext-perl                                                        1.
 liblsan0                                                                      14.2.0-4ubuntu2~24.04.1                deb                         
 libltdl7                                                                      2.4.7-7build1                          deb                         
 liblz4-1                                                                      1.9.4-1build1.1                        deb                         
-liblzma5                                                                      5.6.1+really5.4.5-1ubuntu0.2           deb                         
+liblzma5                                                                      5.6.1+really5.4.5-1ubuntu0.3           deb                         
 libmagic-mgc                                                                  1:5.45-3build1                         deb                         
 libmagic1t64                                                                  1:5.45-3build1                         deb                         
 libmarisa0                                                                    0.2.6-14ubuntu4                        deb                         
@@ -1062,7 +1062,7 @@ libyaml-cpp0.8                                                                0.
 libzstd1                                                                      1.5.5+dfsg2-2build1.1                  deb                         
 libzvbi-common                                                                0.2.42-2                               deb                         
 libzvbi0t64                                                                   0.2.42-2                               deb                         
-linux-libc-dev                                                                6.8.0-117.117                          deb                         
+linux-libc-dev                                                                6.8.0-124.124                          deb                         
 locales                                                                       2.39-0ubuntu8.7                        deb                         
 locales-all                                                                   2.39-0ubuntu8.7                        deb                         
 login                                                                         1:4.13+dfsg1-4ubuntu3.2                deb                         
@@ -1085,9 +1085,9 @@ ncurses-term                                                                  6.
 netbase                                                                       6.4                                    deb                         
 netcat-openbsd                                                                1.226-1ubuntu2                         deb                         
 nftables                                                                      1.0.9-1ubuntu0.1                       deb                         
-nginx                                                                         1.24.0-2ubuntu7.8                      deb                         
-nginx-common                                                                  1.24.0-2ubuntu7.8                      deb                         
-nvidia-cuda-nvrtc                                                             13.2.78                                python                      
+nginx                                                                         1.24.0-2ubuntu7.9                      deb                         
+nginx-common                                                                  1.24.0-2ubuntu7.9                      deb                         
+nvidia-cuda-nvrtc                                                             13.3.33                                python                      
 oauthlib                                                                      3.2.2                                  python                      
 ocl-icd-libopencl1                                                            2.3.2-1build1                          deb                         
 openbox                                                                       3.6.1-12build5                         deb                         
@@ -1247,7 +1247,7 @@ xterm                                                                         39
 xutils                                                                        1:7.7+23ubuntu3                        deb                         
 xvfb                                                                          2:21.1.12-1ubuntu1.5                   deb                         
 xwayland                                                                      2:23.2.6-1ubuntu0.8                    deb                         
-xz-utils                                                                      5.6.1+really5.4.5-1ubuntu0.2           deb                         
+xz-utils                                                                      5.6.1+really5.4.5-1ubuntu0.3           deb                         
 yarl                                                                          1.24.2                                 python                      
 zipp                                                                          3.23.0                                 python                      
 zlib1g                                                                        1:1.3.dfsg-3.1ubuntu2.1                deb                         
