@@ -1213,7 +1213,7 @@ pylibsrtp                                                                     1.
 pynput                                                                        1.8.2                                  python                      
 pyopenssl                                                                     26.3.0                                 python                      
 pyparsing                                                                     3.3.2                                  python                      
-python                                                                        3.14.5                                 binary                      
+python                                                                        3.14.6                                 binary                      
 python-apt                                                                    3.1.0+ubuntu1                          python                      
 python-apt-common                                                             3.1.0ubuntu1                           deb                         
 python-xlib                                                                   0.33                                   python                      
