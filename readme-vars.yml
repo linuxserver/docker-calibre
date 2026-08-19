@@ -96,6 +96,7 @@ init_diagram: |
     svc-xorg -> svc-dbus
     svc-dbus -> legacy-services
     init-services -> svc-de
+    legacy-cont-init -> svc-de
     svc-nginx -> svc-de
     svc-selkies -> svc-de
     svc-xorg -> svc-de
