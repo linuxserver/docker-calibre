@@ -51,6 +51,8 @@ app_setup_block: |
 
   In the wizard, make sure to select the default library location `/config/Calibre Library` as the path for books. We will not provide support if you use a different path.
 
+  This image can also be deployed with one click using the official [Easypanel](https://easypanel.io/) template, available at https://easypanel.io/templates/calibre.
+
   Calibre's built-in webserver is not enabled by default. If you wish to use it, please enable it in Calibre Preferences under `Sharing over the net`. Make sure to leave the port setting as `8081` and check the box to start it automatically.
 # init diagram
 init_diagram: |
