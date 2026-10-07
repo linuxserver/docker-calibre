@@ -948,8 +948,8 @@ libpixman-1-0                                                                 0.
 libpng16-16t64                                                                1.6.57-1                                deb                         
 libpolkit-agent-1-0                                                           127-2ubuntu1.1                          deb                         
 libpolkit-gobject-1-0                                                         127-2ubuntu1.1                          deb                         
-libpoppler-cpp3                                                               26.01.0-2ubuntu0.1                      deb                         
-libpoppler156                                                                 26.01.0-2ubuntu0.1                      deb                         
+libpoppler-cpp3                                                               26.01.0-2ubuntu0.2                      deb                         
+libpoppler156                                                                 26.01.0-2ubuntu0.2                      deb                         
 libppd2                                                                       2:2.1.1-0ubuntu2                        deb                         
 libppd2-common                                                                2:2.1.1-0ubuntu2                        deb                         
 libpresage-data                                                               0.9.1-2.6ubuntu3                        deb                         
@@ -1184,7 +1184,7 @@ pixelflux                                                                     2.
 platformdirs                                                                  4.2.2                                   python                      
 polkitd                                                                       127-2ubuntu1.1                          deb                         
 poppler-data                                                                  0.4.12-1build1                          deb                         
-poppler-utils                                                                 26.01.0-2ubuntu0.1                      deb                         
+poppler-utils                                                                 26.01.0-2ubuntu0.2                      deb                         
 procps                                                                        2:4.0.4-9ubuntu1                        deb                         
 prometheus-client                                                             0.26.0                                  python                      
 propcache                                                                     0.5.4                                   python                      
