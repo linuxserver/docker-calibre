@@ -1204,7 +1204,7 @@ pyjwt                                                                         2.
 pylibsrtp                                                                     1.0.0                                   python                      
 pyopenssl                                                                     26.4.0                                  python                      
 pyparsing                                                                     3.3.2                                   python                      
-python                                                                        3.14.7                                  binary                      
+python                                                                        3.14.8                                  binary                      
 python-apt                                                                    3.1.0+ubuntu1.1                         python                      
 python-apt-common                                                             3.1.0ubuntu1.1                          deb                         
 python-dotenv                                                                 1.2.4                                   python                      
