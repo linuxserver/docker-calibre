@@ -953,7 +953,7 @@ libpixman-1-0                                                                 0.
 libpng16-16t64                                                                1.6.43-5ubuntu0.6                      deb                         
 libpolkit-agent-1-0                                                           124-2ubuntu1.24.04.3                   deb                         
 libpolkit-gobject-1-0                                                         124-2ubuntu1.24.04.3                   deb                         
-libpoppler134                                                                 24.02.0-1ubuntu9.9                     deb                         
+libpoppler134                                                                 24.02.0-1ubuntu9.10                    deb                         
 libpresage-data                                                               0.9.1-2.6ubuntu2                       deb                         
 libpresage1v5                                                                 0.9.1-2.6ubuntu2                       deb                         
 libproc2-0                                                                    2:4.0.4-4ubuntu3.2                     deb                         
@@ -1181,7 +1181,7 @@ pixelflux                                                                     1.
 platformdirs                                                                  4.4.0                                  python                      
 polkitd                                                                       124-2ubuntu1.24.04.3                   deb                         
 poppler-data                                                                  0.4.12-1                               deb                         
-poppler-utils                                                                 24.02.0-1ubuntu9.9                     deb                         
+poppler-utils                                                                 24.02.0-1ubuntu9.10                    deb                         
 procps                                                                        2:4.0.4-4ubuntu3.2                     deb                         
 prometheus-client                                                             0.25.0                                 python                      
 propcache                                                                     0.5.2                                  python                      
