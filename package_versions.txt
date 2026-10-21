@@ -892,7 +892,7 @@ liblocale-gettext-perl                                                        1.
 liblsan0                                                                      14.2.0-4ubuntu2~24.04.1                deb                         
 libltdl7                                                                      2.4.7-7build1                          deb                         
 liblz4-1                                                                      1.9.4-1build1.1                        deb                         
-liblzma5                                                                      5.6.1+really5.4.5-1ubuntu0.3           deb                         
+liblzma5                                                                      5.6.1+really5.4.5-1ubuntu0.4           deb                         
 libmagic-mgc                                                                  1:5.45-3build1                         deb                         
 libmagic1t64                                                                  1:5.45-3build1                         deb                         
 libmarisa0                                                                    0.2.6-14ubuntu4                        deb                         
@@ -1319,7 +1319,7 @@ xterm                                                                         39
 xutils                                                                        1:7.7+23ubuntu3                        deb                         
 xvfb                                                                          2:21.1.12-1ubuntu1.6                   deb                         
 xwayland                                                                      2:23.2.6-1ubuntu0.8                    deb                         
-xz-utils                                                                      5.6.1+really5.4.5-1ubuntu0.3           deb                         
+xz-utils                                                                      5.6.1+really5.4.5-1ubuntu0.4           deb                         
 yarl                                                                          1.24.2                                 python                      
 zipp                                                                          3.23.0                                 python                      
 zlib1g                                                                        1:1.3.dfsg-3.1ubuntu2.1                deb                         
