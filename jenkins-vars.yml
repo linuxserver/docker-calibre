@@ -3,6 +3,8 @@
 # jenkins variables
 project_name: docker-calibre
 external_type: github_stable
+custom_release_notes_command: |-
+  curl -Ls https://calibre-ebook.com/changelog.rss | xmlstarlet sel --html -T -t -v "//rss/channel/item[title=\\"calibre $(echo ${EXT_RELEASE} | sed -E 's|^v||' | sed -E 's|\\.0||')\\"]/description//text()" | pandoc -f html -t markdown-raw_html-native_divs > releasebody.json
 release_type: stable
 release_tag: latest
 ls_branch: master
